@@ -5,7 +5,7 @@
       <v-layout column wrap class="my-0 pt-0" align-center >
         <v-flex xs12 class="mt-4 mb-0">
           <div class="text-center">
-            <img src="@/assets/Carrusel Encuentro 2020 v2.png" alt="Encuentro Internacional REDOC" style="width: 100%;">
+            <img src="@/assets/Carrusel Encuentro 20201.png" alt="Encuentro Internacional REDOC" style="width: 100%;">
           </div>
         </v-flex>
       </v-layout>
@@ -69,7 +69,7 @@
       </v-layout>
     </section>
 
-    <section id="magistrales" class="black white--text">
+    <!-- <section id="magistrales" class="black white--text">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
@@ -83,9 +83,6 @@
           <v-container grid-list-xl>
             <v-flex xs12>
               <v-card flat class="transparent">
-                <v-card-text class="text-center">
-                  <!-- <v-icon x-large class="red--text">mdi-account</v-icon> -->
-                </v-card-text>
                 <v-card-text class="text-center">
                   <v-layout row wrap align-start justify-space-around fill-height>
                     <v-flex xs12 md4>
@@ -227,75 +224,57 @@
           </v-container>
         </v-flex>
       </v-layout>
-    </section>
+    </section> -->
 
-    <section id="ejes">
-  <v-layout column wrap class="my-12 py-12" align-center >
-  <v-flex xs12 sm4 class="my-4">
-    <div class="text-center">
-      <h2 class="display-3">Ejes temáticos</h2>
-    </div>
-  </v-flex>
-  <v-flex xs12>
-    <v-container grid-list-xl>
-      <v-layout row wrap align-center>
-        <v-flex xs12 md6>
-          <v-card flat class="transparent">
-            <v-card-text class="text-center">
-              <v-icon x-large class="red--text">mdi-movie-search</v-icon>
-            </v-card-text>
-            <v-card-title primary-title class="layout justify-center">
-              <div class="headline text-center">Investigación sobre documentales</div>
-            </v-card-title>
-            <v-card-text class="body-1 text-center">
-              Metodologías, periodos, escuelas, movimientos, autores, estudios comparativos, historiografía, curaduría, teorías, enseñanza-aprendizaje de investigación sobre documentales.
-            </v-card-text>
-          </v-card>
+    <section id="ejes" class="black white--text">
+      <v-layout column wrap class="my-12 py-12" align-center >
+        <v-flex xs12 sm4 class="my-4">
+          <div class="text-center">
+            <h2 class="display-3">Ejes temáticos</h2>
+          </div>
         </v-flex>
-        <v-flex xs12 md6>
+        <v-flex xs12>
+          <v-container grid-list-xl>
+            <v-layout row wrap align-center>
+              <v-flex xs12 md6>
+                <v-card flat class="transparent">
+                  <v-card-text class="text-center">
+                    <v-icon x-large class="red--text">mdi-movie-search</v-icon>
+                  </v-card-text>
+                  <v-card-title primary-title class="layout justify-center">
+                    <div class="headline text-center">Investigación sobre documentales</div>
+                  </v-card-title>
+                  <v-card-text class="body-1 text-center">
+                    Metodologías, periodos, escuelas, movimientos, autores, estudios comparativos, historiografía, curaduría, teorías, enseñanza-aprendizaje de investigación sobre documentales.
+                  </v-card-text>
+                </v-card>
+              </v-flex>
+              <v-flex xs12 md6>
+                <v-card flat class="transparent">
+                  <v-card-text class="text-center">
+                    <v-icon x-large class="red--text">mdi-movie-edit</v-icon>
+                  </v-card-text>
+                  <v-card-title primary-title class="layout justify-center">
+                    <div class="headline text-center">Investigación para documentales</div>
+                  </v-card-title>
+                  <v-card-text class="body-1 text-center">
+                    Enseñanza-aprendizaje de investigación para documental, equipos de trabajo, procesos metodologías, fuentes, puntos de vista, narrativas, tratamiento, dispositivos, públicos, archivos y acceso.
+                  </v-card-text>
+                </v-card>
+              </v-flex>
+            </v-layout>
+          </v-container>
+        </v-flex>
+        <v-flex xs12>
           <v-card flat class="transparent">
             <v-card-text class="text-center">
-              <v-icon x-large class="red--text">mdi-movie-edit</v-icon>
-            </v-card-text>
-            <v-card-title primary-title class="layout justify-center">
-              <div class="headline text-center">Investigación para documentales</div>
-            </v-card-title>
-            <v-card-text class="body-1 text-center">
-              Enseñanza-aprendizaje de investigación para documental, equipos de trabajo, procesos metodologías, fuentes, puntos de vista, narrativas, tratamiento, dispositivos, públicos, archivos y acceso.
             </v-card-text>
           </v-card>
         </v-flex>
       </v-layout>
-    </v-container>
-  </v-flex>
-  <!-- <v-flex xs12 sm4 class="my-4">
-  <div class="text-center">
-  <h2 class="display-3 text-center">
-  Líneas de participación
-  <v-icon x-large class="red--text">mdi-file-document-outline</v-icon>
-</h2>
-</div>
-</v-flex> -->
-<v-flex xs12>
-  <v-card flat class="transparent">
-    <v-card-text class="text-center">
-      <!-- <v-icon x-large class="red--text">mdi-file-document-outline</v-icon> -->
-    </v-card-text>
-    <!-- <v-card-text class="text-center white--text mt-4">
-      <v-list-item v-for="(texto, index) in lineasDeParticipacion" v-bind:key="index" class="my-n6 py-0">
-        <v-list-item-content>
-          <v-list-item-title class="body-1">
-            {{ texto }}
-          </v-list-item-title>
-        </v-list-item-content>
-      </v-list-item>
-    </v-card-text> -->
-  </v-card>
-</v-flex>
-</v-layout>
-</section>
+    </section>
 
-    <section id="programa" class="black white--text">
+    <section id="programa">
       <v-layout
         column
         wrap
@@ -329,66 +308,37 @@
                   </v-card-title>
                   <v-card-text class="body-1 text-center">
                     <p class="font-weight-bold">
-                      Lunes 21 de septiembre
+                      Lunes 25 de octubre
                     </p>
-                    16 hrs: Registro de participantes
+                    Inauguración
                     <br />
-                    17:30 hrs: Inauguración
-                    <br />
-                    18 a 20 hrs: Conferencia magistral:
-                    <br />
-                    <strong>LYNN NOVICK, Florentine Films</strong>
-                    <br />
-                    Convivio inaugural
+                    Paneles temáticos
                   </v-card-text>
-                  <!-- <v-card-text class="body-1 text-center font-weight-bold">
-                    Martes 22 de septiembre
-                  </v-card-text> -->
                   <v-card-text class="body-1 text-center">
                     <p class="font-weight-bold">
-                      Martes 22 de septiembre
+                      Martes 26 de octubre
                     </p>
-                    10 a 14 hrs: Paneles temáticos
+                    Paneles temáticos
                     <br />
-                    14 a 16 hrs: comida
-                    <br />
-                    16 a 18 hrs: Paneles temáticos
-                    <br />
-                    18:00 a 20:00 hrs: Conferencia magistral:
-                    <br />
-                    <strong>MARÍA AIMARETTI, Universidad de Buenos Aires</strong>
+                    Conferencia magistral:
                   </v-card-text>
-                  <!-- <v-card-text class="body-1 text-center font-weight-bold">
-                    Miércoles 23 de septiembre
-                  </v-card-text> -->
                   <v-card-text class="body-1 text-center">
                     <p class="font-weight-bold">
-                      Miércoles 23 de septiembre
+                      Miércoles 27 de octubre
                     </p>
-                    10 a 14 hrs: Paneles temáticos
+                    Paneles temáticos
                     <br />
-                      14 a 16 hrs: comida
-                    <br />
-                      16 a 18 hrs: Paneles temáticos
-                    <br />
-                      18:00 a 20:00 hrs: Conferencia magistral:
-                    <br />
-                    <strong>TIZIANA PANIZZA, Universidad de Chile</strong>
+                    Conferencia magistral
                   </v-card-text>
-                  <!-- <v-card-text class="body-1 text-center font-weight-bold">
-                    Jueves 24 de septiembre
-                  </v-card-text> -->
                   <v-card-text class="body-1 text-center">
                     <p class="font-weight-bold">
-                      Jueves 24 de septiembre
+                      Jueves 28 de octubre
                     </p>
-                    10 a 14 hrs: Paneles temáticos
+                    Paneles temáticos
                     <br />
-                    14 a 16 hrs: comida
+                    Sesión plenaria
                     <br />
-                    16 a 18 hrs: Paneles temáticos
-                    <br />
-                    18:00 hrs: Sesión plenaria y convivio de clausura
+                    Clausura
                   </v-card-text>
                 </v-card>
               </v-flex>
@@ -401,13 +351,13 @@
       </v-layout>
     </section>
 
-    <section id="inscripcion">
+    <section id="inscripcion" class="black white--text">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
             <h2 class="display-3">
               Inscripciones
-              <v-icon x-large class="red--text">mdi-currency-usd</v-icon>
+              <v-icon x-large class="red--text">mdi-ticket-confirmation</v-icon>
             </h2>
           </div>
         </v-flex>
@@ -416,14 +366,14 @@
             <v-layout row wrap align-center>
               <v-flex xs12>
                 <v-card flat class="transparent">
-                  <v-card-text class="text-center white--text body-1">
+                  <!-- <v-card-text class="text-center white--text body-1">
                     <p>
                       Esta inscripción otorga el derecho al acceso con gafete y paquete de recepción, refrigerios y convivios, así como la acreditación de participación como asistentes al Encuentro.
                     </p>
-                  </v-card-text>
+                  </v-card-text> -->
                   <v-card-text class="text-center white--text body-1 text-uppercase">
                     <p>
-                      Inscripciones abiertas para asistentes desde el 1 de marzo
+                      Inscripciones abiertas para ingresar al evento a partir del 1 de mayo
                     </p>
                   </v-card-text>
                   <v-card-text class="text-center white--text body-1 font-weight-black" style="text-decoration: underline;">
@@ -434,7 +384,7 @@
                 </v-card>
               </v-flex>
 
-              <v-flex xs12 md6>
+              <!-- <v-flex xs12 md6>
                 <v-card flat class="transparent ">
                   <v-card-title primary-title class="layout justify-center">
                     <div class="body-1 text-center">Pago del 1 de marzo al 31 de agosto de 2020</div>
@@ -453,20 +403,20 @@
                     $675 MXN / $35 USD
                   </v-card-text>
                 </v-card>
-              </v-flex>
+              </v-flex> -->
 
               <v-flex xs12>
                 <v-card flat class="transparent">
                   <v-card-text class="text-center white--text body-1">
-                    <p>
+                    <!-- <p>
                       Una vez efectuado el pago, favor de remitir el comprobante a: <a href="mailto:redocencuentro2020@mora.edu.mx" style="color: #f44336;">redocencuentro2020@mora.edu.mx</a>
-                    </p>
+                    </p> -->
                     <p>
                       <strong>Si el cupo se llena será indicado en la página electrónica del Encuentro de forma muy visible.</strong>
                     </p>
-                    <p>
+                    <!-- <p>
                       <strong>Verificar antes de realizar el pago. En ningún caso habrá reembolso del pago.</strong>
-                    </p>
+                    </p> -->
                   </v-card-text>
                 </v-card>
               </v-flex>
@@ -505,7 +455,7 @@
                     * <span class="caption"> Estudiantes participantes tendrán 50% de descuento presentando credencia vigente</span>
                   </v-card-text> -->
                   <v-card-actions class="justify-center">
-                    <v-btn class="mt-12" dark large color="red" @click.stop="dialog.infoPago = true">Datos para el pago</v-btn>
+                    <!-- <v-btn class="mt-12" dark large color="red" @click.stop="dialog.infoPago = true">Datos para el pago</v-btn> -->
                   </v-card-actions>
                   <v-dialog v-model="dialog.infoPago" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)" width="70%">
                     <v-card>
@@ -547,57 +497,52 @@
       </v-layout>
     </section>
 
-    <section id="fechas" class="black white--text">
-    <v-layout
-    column
-    wrap
-    class="my-12 py-12"
-    align-center
-    >
-    <v-flex xs12 class="my-4">
-      <div class="text-center">
-        <h2 class="display-3">
-          Fechas importantes
-          <v-icon x-large class="red--text">mdi-calendar</v-icon>
-        </h2>
-      </div>
-    </v-flex>
-    <v-flex xs12>
-      <v-container grid-list-xl>
-        <v-layout row wrap align-center>
-          <v-flex xs12>
-            <v-card flat class="transparent">
-              <v-card-text class="text-center">
-                <!-- <v-icon x-large class="red--text">mdi-calendar</v-icon> -->
-              </v-card-text>
-              <v-card-text>
-                <v-timeline>
-                  <v-timeline-item v-for="(item, index) in fechas" :key="index" right color="red" fill-dot small>
-                    <template v-slot:opposite>
-                      <span class="headline font-weight-bold" justify="center">
-                        {{ item.date }}
-                        <span v-if="item.date2">
-                          <br />
-                          al {{ item.date2 }}
-                        </span>
-                      </span>
-                    </template>
-                    <div class="py-6">
-                      <h2 class="headline font-weight-light" v-text="item.title"></h2>
-                      <div v-text="item.text"></div>
-                    </div>
-                  </v-timeline-item>
-                </v-timeline>
-              </v-card-text>
-            </v-card>
-          </v-flex>
-        </v-layout>
-      </v-container>
-    </v-flex>
-  </v-layout>
-</section>
+    <section id="fechas">
+      <v-layout column wrap class="my-12 py-12" align-center >
+        <v-flex xs12 class="my-4">
+          <div class="text-center">
+            <h2 class="display-3">
+              Fechas importantes
+              <v-icon x-large class="red--text">mdi-calendar</v-icon>
+            </h2>
+          </div>
+        </v-flex>
+        <v-flex xs12>
+          <v-container grid-list-xl>
+            <v-layout row wrap align-center>
+              <v-flex xs12>
+                <v-card flat class="transparent">
+                  <v-card-text class="text-center">
+                    <!-- <v-icon x-large class="red--text">mdi-calendar</v-icon> -->
+                  </v-card-text>
+                  <v-card-text>
+                    <v-timeline>
+                      <v-timeline-item v-for="(item, index) in fechas" :key="index" right color="red" fill-dot small>
+                        <template v-slot:opposite>
+                          <span class="headline font-weight-bold" justify="center">
+                            {{ item.date }}
+                            <span v-if="item.date2">
+                              <br />
+                              al {{ item.date2 }}
+                            </span>
+                          </span>
+                        </template>
+                        <div class="py-6">
+                          <h2 class="headline font-weight-light" v-text="item.title"></h2>
+                          <div v-text="item.text"></div>
+                        </div>
+                      </v-timeline-item>
+                    </v-timeline>
+                  </v-card-text>
+                </v-card>
+              </v-flex>
+            </v-layout>
+          </v-container>
+        </v-flex>
+      </v-layout>
+    </section>
 
-    <section id="comite">
+    <section id="comite" class="black white--text">
       <v-layout
         column
         wrap
@@ -637,7 +582,7 @@
       </v-layout>
     </section>
 
-    <section id="contacto" class="black white--text">
+    <section id="contacto">
       <v-container grid-list-xl>
         <v-layout row wrap justify-center class="my-12">
           <v-flex xs12 class="my-4">
@@ -681,7 +626,7 @@
                     <v-icon class="red--text">mdi-email</v-icon>
                   </v-list-item-action>
                   <v-list-item-content>
-                    <v-list-item-title><a href="mailto:redocencuentro2020@mora.edu.mx" style="color: white;">redocencuentro2020@mora.edu.mx</a></v-list-item-title>
+                    <v-list-item-title><a href="mailto:redoc.investigacion@gmail.com" style="color: white;">redoc.investigacion@gmail.com</a></v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
               </v-list>
@@ -716,7 +661,7 @@
             ReDOC Investigación – 2020
           </div>
         </v-flex> -->
-        <v-flex xs12 sm1>
+        <v-flex xs12 sm3>
           <div class="grey--text text--darken-2 ml-4 text-center justify-center">
           </div>
         </v-flex>
@@ -741,7 +686,7 @@
             </a>
           </div>
         </v-flex>
-        <v-flex xs12 sm2>
+        <!-- <v-flex xs12 sm2>
           <div class="grey--text text--darken-2 ml-4 text-center justify-center">
             <a href="http://www.cisan.unam.mx/" target="_blank">
               <v-img src="@/assets/logo_CISAN.png" height="75" contain class="mx-2 my-2"></v-img>
@@ -754,7 +699,7 @@
               <v-img src="@/assets/logo_UNAM.png" height="75" contain class="mx-2 my-2"></v-img>
             </a>
           </div>
-        </v-flex>
+        </v-flex> -->
       </v-layout>
     </v-footer>
   </v-content>
@@ -782,21 +727,21 @@ export default {
       'Archivo, patrimonio y memoria en el documental',
     ],
     fechas: [
+      // {
+      //   date: '30 de enero de 2020',
+      //   title: 'Cierre de convocatoria para ponentes',
+      //   text: '',
+      // },
+      // {
+      //   date: '1 de marzo al 30 de mayo de 2020',
+      //   // date2: '31 de agosto de 2020',
+      //   title: 'Inscripciones para ponentes',
+      //   text: '',
+      // },
       {
-        date: '30 de enero de 2020',
-        title: 'Cierre de convocatoria para ponentes',
-        text: '',
-      },
-      {
-        date: '1 de marzo al 30 de mayo de 2020',
-        // date2: '31 de agosto de 2020',
-        title: 'Inscripciones para ponentes',
-        text: '',
-      },
-      {
-        date: '1 de marzo al 31 de agosto de 2020',
-        // date2: '31 de agosto de 2020',
-        title: 'Inscripciones con descuento para asistentes',
+        date: '1 de mayo de 2021',
+        date2: '31 de septiembre de 2021',
+        title: 'Inscripciones para asistentes',
         text: '',
       },
       // {
@@ -811,8 +756,8 @@ export default {
       //   text: '',
       // },
       {
-        date: '21 al 24 de septiembre de 2020',
-        title: 'Encuentro Internacional ReDOC 2020',
+        date: '25 al 28 de octubre de 2021',
+        title: 'Encuentro Internacional ReDOC 2021',
         text: '',
       },
     ],
@@ -838,8 +783,9 @@ export default {
       {name: 'Liliana Cordero', title: 'Dra.', from: 'CISAN - UNAM'},
       {name: 'Felipe Morales Leal', title: 'Mtro.', from: 'Instituto Mora'},
       {name: 'Lilia García Torres', title: 'Mtra.', from: 'CIALC - UNAM'},
-      {name: 'José Luis Mariño', title: 'Dr.', from: 'Investigador independiente'},
-      {name: 'Gloria Marvic García', title: 'Dra.', from: 'Instituto Mora'},
+      // {name: 'José Luis Mariño', title: 'Dr.', from: 'Investigador independiente'},
+      {name: 'Rodrigo Colín Rivera', title: 'Lic.', from: 'Instituto Mora'},
+      {name: 'Gloria Marvic García', title: 'Dra.', from: 'Investigadora independiente'},
       {name: 'Jaime Sánchez', title: 'Mtro.', from: 'ENCRYM - INAH'},
       {name: 'Karen Rivera', title: 'Lic.', from: 'Investigadora independiente'},
     ],
