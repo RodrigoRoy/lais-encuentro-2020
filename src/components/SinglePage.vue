@@ -5,7 +5,7 @@
       <v-layout column wrap class="my-0 pt-0" align-center >
         <v-flex xs12 class="mt-4 mb-0">
           <div class="text-center">
-            <img src="@/assets/Carrusel Encuentro 20201.png" alt="Encuentro Internacional REDOC" style="width: 100%;">
+            <img src="@/assets/Carrusel Encuentro 2021.png" alt="Encuentro Internacional REDOC" style="width: 100%;">
           </div>
         </v-flex>
       </v-layout>
@@ -313,6 +313,8 @@
                     Inauguración
                     <br />
                     Paneles temáticos
+                    <br />
+                    Conferencia magistral
                   </v-card-text>
                   <v-card-text class="body-1 text-center">
                     <p class="font-weight-bold">
@@ -320,7 +322,7 @@
                     </p>
                     Paneles temáticos
                     <br />
-                    Conferencia magistral:
+                    Conferencia magistral
                   </v-card-text>
                   <v-card-text class="body-1 text-center">
                     <p class="font-weight-bold">
