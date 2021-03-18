@@ -69,7 +69,7 @@
       </v-layout>
     </section>
 
-    <!-- <section id="magistrales" class="black white--text">
+    <section id="magistrales" class="black white--text">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
@@ -127,45 +127,37 @@
                     </v-flex>
                     <v-flex xs12 md4>
                       <v-card flat class="transparent white--text">
-                        <v-img class="white--text align-end" height="200px" contain position="top center" src="@/assets/Foto_Aimaretti_2.jpg">
+                        <v-img class="white--text align-end" height="200px" contain position="top center" src="@/assets/Foto_Sonia_2.jpg">
                         </v-img>
-                        <v-card-title class="justify-center">María Aimaretti</v-card-title>
-                        <v-card-subtitle>Universidad de Buenos Aires</v-card-subtitle>
+                        <v-card-title class="justify-center">Sonia Fritz</v-card-title>
+                        <v-card-subtitle>National Latino Independent Producers</v-card-subtitle>
                         <v-card-text class="text-center white--text body-1">
-                          Es investigadora en los institutos Gino Germani y Artes del Espectáculo, ambos de la UBA. Sus áreas de reflexión se vinculan, por un lado, con las relaciones entre arte y política en América Latina, a propósito de las representaciones de la violencia, la historia y la memoria, con un extenso trabajo de investigación sobre cine, teatro y video boliviano.
+                          Estudió Comunicación en la UNAM y trabajó como free lance en películas y documentales, ganando un “Ariel” a mejor documental por “De bandas, vidas y otros sones” en 1986. En 1985 se muda a Puerto Rico y sigue trabajando los temas que le apasionan tales como migración, género, artes visuales y ecología en sus más de 25 documentales y 4 películas de ficción.
                         </v-card-text>
                         <v-card-actions class="justify-center">
                           <v-btn text color="red" @click.stop="dialog.maria = true">Leer más...</v-btn>
                         </v-card-actions>
                         <v-dialog v-model="dialog.maria" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)">
                           <v-card>
-                            <v-card-title class="headline">María Aimaretti</v-card-title>
+                            <v-card-title class="headline">Sonia Fritz</v-card-title>
                             <v-card-text class="body-1">
                               <p>
-                                Doctora en Historia y Teoría de las Artes por la Universidad de Buenos Aires (2015). Licenciada y profesora en Artes Combinadas, diploma de honor 2009, Facultad de Filosofía y Letras (UBA).
-                                Actualmente realiza su posdoctorado en Humanidades en la Facultad de Filosofía y Letras de la UBA.
+                                Estudió la licenciatura en Ciencias de la Comunicación en la Universidad Nacional Autónoma de México, y se tituló con la tesis <em>Filmación de un documental sobre la Unión de Mujeres Yalaltecas en Oaxaca</em>. Durante su estancia en la UNAM, Fritz cursó la materia de Taller de guion cinematográfico que impartía Manuel Michel, quien más tarde la invitó a trabajar en un proyecto de filmación. En ese momento Fritz ya se dedicaba al periodismo, profesión que ejercía en medios comerciales y a nivel comunitario en Tepito, pero cuando estuvo en el trabajo de filmación decidió dedicarse al cine. Tras esa experiencia trabajó en el Centro de Producción de Cortometrajes y más tarde en el Cine-Difusión de la Secretaría de Educación Pública (SEP), también trabajo como asistente de producción, asistente de dirección, editora y productora.
                               </p>
                               <p>
-                                Becaria doctoral del CONICET entre 2010 y 2014 y becaria postdoctoral entre 2015 y 2017. Actualmente es investigadora asistente por el mismo organismo.
+                                Se integró al Colectivo Cine Mujer en 1978 porque le interesaba trabajar en cine con un equipo de mujeres sobre temas específicos de la condición de las mujeres. El colectivo trabajaba a partir de la autogestión, metodología participativa con las personas filmadas y exhibición autogestiva con debate final. En ese año se realizó en la Ciudad de México un encuentro de mujeres de grupos autónomos, el registro de ese evento dio resultado al documental <em>Es primera vez</em>, en el que Fritz participó como sonidista y editora.
                               </p>
                               <p>
-                                Adscripta a la cátedra de Historia del Cine Latinoamericano y Argentino (2010-2012), se desempeña como docente concursada en dicha materia desde 2013 a la actualidad.
+                                En 1982, la Unión de Mujeres Yalaltecas, después de observar los filmes <em>Es primera vez</em> y <em>Vida de angel</em>, contactó al CCM para ver la posibilidad de que realizara un documental sobre su lucha, su comunidad y organización. Sonia Fritz y otra compañera acudieron al llamado, las autoridades municipales sugirieron que el documental incluyera algunos tópicos, la comunidad también colaboraría con el alojamiento y los alimentos, mientras que el CCM aportaría el trabajo y parte del equipo técnico, con lo que el resultado fue un filme colaborativo, mismo que se exhibió por primera vez en la cancha de la comunidad. <em>Yalaltecas</em> narra la vida cotidiana de las mujeres de la sierra de Oaxaca que decide luchar por sus demandas.
                               </p>
                               <p>
-                                Integrante del grupo de investigación CIyNE (2007-2014), investigadora invitada en UNTREF (2011-2014) y miembro desde 2010 a 2016 del comité editorial de la Revista Cine Documental.
-                                Actualmente participa del grupo de estudios “Arte, cultura y política en la Argentina reciente” coordinado por Ana Longoni y Cora Gamarnik en el Instituto Gino Germani de la UBA.
+                                Posteriormente ingresó al Archivo Etnográfico Audiovisual del Instituto Nacional Indigenista para editar unas tomas que se habían generado druante la fiesta de la Guelaguetza, en la ciudad de Oaxaca. Para dar sentido a esas imágenes propuso una historia y un guion centradas en los músicos de la comunidad zapoteca Santa Catarina Albarradas, Oaxaca, que habían migrado a Ciudad Nezahualcoyotl, donde reproducían su cultura musical. El resultado fue <em>De bandas, vidas y otros sones</em> (1985).
                               </p>
                               <p>
-                                Miembro de la Asociación Argentina de Estudios sobre Cine y Audiovisual, de la Red de Investigadores sobre Cine Latinoamericano y de la Asociación Argentina para la Investigación en Historia de las Mujeres y Estudios de Género.
+                                Después de terminar el documental Fritz se mudó a Puerto Rico donde nació su hijo. En 1989 fundó Isla Films, una compañía abocada a la producción de audiovisuales educativos y culturales. En 1993 realizó su primer trabajo histórico, a partir de la adaptación (docudrama) del libro Luisa Capetillo: historia de una mujer proscrita de la periodista Norma Valle Ferrer (1990).
                               </p>
                               <p>
-                                Ganadora del primer premio en el Concurso de Ensayos sobre Cine Argentino “Domingo Di Núbila” (2016) auspiciado por el INCAA y AsAECA.
-                              </p>
-                              <p>
-                                Fue distinguida con el diploma y medalla como docente universitaria a la Excelencia Académica, otorgado por el Rectorado de la Universidad de Buenos Aires, en diciembre de 2017.
-                              </p>
-                              <p>
-                                Es investigadora en los institutos Gino Germani y Artes del Espectáculo, ambos de la UBA. Sus áreas de reflexión se vinculan, por un lado, con las relaciones entre arte y política en América Latina, a propósito de las representaciones de la violencia, la historia y la memoria, con un extenso trabajo de investigación sobre cine, teatro y video boliviano. Y por otro, con las vinculaciones entre cultura popular y cultura masiva en el cine argentino, atendiendo especialmente a las figuraciones de lo femenino. Publicó artículos en revistas académicas indexadas de Argentina y el exterior, y capítulos de libros sobre cine argentino y latinoamericano.
+                                Cursó la maestría en Artes Visuales en Vermon Collegue en Norwich University y el doctorado en Literatura del Caribe Inglés en la Universidad de Puerto Rico, recinto Piedras Negras. Es profesora en la Escuela de Comunicación Ferré Rangel de la Universidad del Sagrado Corazón. Es miembro de la National Latino Independent Producers (NALIP).
                               </p>
                             </v-card-text>
                             <v-card-actions>
@@ -224,9 +216,9 @@
           </v-container>
         </v-flex>
       </v-layout>
-    </section> -->
+    </section>
 
-    <section id="ejes" class="black white--text">
+    <section id="ejes">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
@@ -274,20 +266,13 @@
       </v-layout>
     </section>
 
-    <section id="programa">
+    <!-- <section id="programa">
       <v-layout
         column
         wrap
         class="my-12 py-12"
         align-center
       >
-        <!-- <v-flex xs12>
-          <v-card flat class="transparent">
-            <v-card-text class="text-center">
-              <v-icon x-large class="red--text">mdi-bullhorn</v-icon>
-            </v-card-text>
-          </v-card>
-        </v-flex> -->
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
             <h2 class="display-3">
@@ -351,7 +336,7 @@
           Programa final disponible en junio
         </v-btn>
       </v-layout>
-    </section>
+    </section> -->
 
     <section id="inscripcion" class="black white--text">
       <v-layout column wrap class="my-12 py-12" align-center >
@@ -758,7 +743,7 @@ export default {
       //   text: '',
       // },
       {
-        date: '25 al 28 de octubre de 2021',
+        date: '25 al 30 de octubre de 2021',
         title: 'Encuentro Internacional ReDOC 2021',
         text: '',
       },
@@ -782,14 +767,12 @@ export default {
     ],
     comite: [
       {name: 'Lourdes Roca', title: 'Dra.', from: 'Instituto Mora'},
-      {name: 'Liliana Cordero', title: 'Dra.', from: 'CISAN - UNAM'},
       {name: 'Felipe Morales Leal', title: 'Mtro.', from: 'Instituto Mora'},
       {name: 'Lilia García Torres', title: 'Mtra.', from: 'CIALC - UNAM'},
-      // {name: 'José Luis Mariño', title: 'Dr.', from: 'Investigador independiente'},
-      {name: 'Rodrigo Colín Rivera', title: 'Lic.', from: 'Instituto Mora'},
-      {name: 'Gloria Marvic García', title: 'Dra.', from: 'Investigadora independiente'},
+      {name: 'Rodrigo Colín', title: 'Lic.', from: 'Instituto Mora'},
       {name: 'Jaime Sánchez', title: 'Mtro.', from: 'ENCRYM - INAH'},
       {name: 'Karen Rivera', title: 'Lic.', from: 'Investigadora independiente'},
+      {name: 'Alejandro Gracida', title: 'Dr.', from: 'Filmoteca UNAM'},
     ],
     dialog: {
       lynn: false,
