@@ -59,7 +59,7 @@
                     <!-- <v-icon x-large class="red--text">mdi-filmstrip</v-icon> -->
                   </v-card-text>
                   <v-card-text class="body-1 text-center white--text">
-                    ReDOC Investigación constituye una red de investigación sobre documentales concebida como un espacio que reúne a investigadores, docentes, archivistas, estudiantes y realizadores interesados en los estudios de estos documentos audiovisuales desde las diversas disciplinas involucradas en ellos.
+                    ReDOC Investigación constituye una red de investigación sobre documentales concebida como un espacio que reúne a investigadores, docentes, archivistas, curadores, estudiantes y realizadores con interés en los estudios de estos documentos audiovisuales desde las diversas disciplinas involucradas en ellos.
                   </v-card-text>
                 </v-card>
               </v-flex>
@@ -130,7 +130,7 @@
                         <v-img class="white--text align-end" height="200px" contain position="top center" src="@/assets/Foto_Sonia_2.jpg">
                         </v-img>
                         <v-card-title class="justify-center">Sonia Fritz</v-card-title>
-                        <v-card-subtitle>National Latino Independent Producers</v-card-subtitle>
+                        <v-card-subtitle>Universidad del Sagrado Corazón</v-card-subtitle>
                         <v-card-text class="text-center white--text body-1">
                           Estudió Comunicación en la UNAM y trabajó como free lance en películas y documentales, ganando un “Ariel” a mejor documental por “De bandas, vidas y otros sones” en 1986. En 1985 se muda a Puerto Rico y sigue trabajando los temas que le apasionan tales como migración, género, artes visuales y ecología en sus más de 25 documentales y 4 películas de ficción.
                         </v-card-text>
@@ -141,7 +141,7 @@
                           <v-card>
                             <v-card-title class="headline">Sonia Fritz</v-card-title>
                             <v-card-text class="body-1">
-                              <p>
+                              <!-- <p>
                                 Estudió la licenciatura en Ciencias de la Comunicación en la Universidad Nacional Autónoma de México, y se tituló con la tesis <em>Filmación de un documental sobre la Unión de Mujeres Yalaltecas en Oaxaca</em>. Durante su estancia en la UNAM, Fritz cursó la materia de Taller de guion cinematográfico que impartía Manuel Michel, quien más tarde la invitó a trabajar en un proyecto de filmación. En ese momento Fritz ya se dedicaba al periodismo, profesión que ejercía en medios comerciales y a nivel comunitario en Tepito, pero cuando estuvo en el trabajo de filmación decidió dedicarse al cine. Tras esa experiencia trabajó en el Centro de Producción de Cortometrajes y más tarde en el Cine-Difusión de la Secretaría de Educación Pública (SEP), también trabajo como asistente de producción, asistente de dirección, editora y productora.
                               </p>
                               <p>
@@ -158,6 +158,13 @@
                               </p>
                               <p>
                                 Cursó la maestría en Artes Visuales en Vermon Collegue en Norwich University y el doctorado en Literatura del Caribe Inglés en la Universidad de Puerto Rico, recinto Piedras Negras. Es profesora en la Escuela de Comunicación Ferré Rangel de la Universidad del Sagrado Corazón. Es miembro de la National Latino Independent Producers (NALIP).
+                              </p> -->
+
+                              <p>
+                                Estudió Comunicación en la Universidad Nacional Autónoma de México, trabajó como free lance en películas y documentales, y fue parte del Colectivo Cine Mujer. En 1986 ganó un “Ariel” a mejor documental por “De bandas, vidas y otros sones” producido por el INI. En 1985 se mudó a Puerto Rico y comenzó a enseñar en la Universidad del Sagrado Corazón. Posteriormente estudió una maestría en Artes Visuales en Vermont College at Norwich University. Ha realizado más de 25 documentales sobre los temas que le apasionan tales como migración, género, artes visuales, temas sociales y ambientales. En el año 2000 dirigió su primera película de ficción y luego realiza tres más. <em>América</em> fue seleccionada por los festivales de Huelva, Montreal, Guadalajara, Rabat, Ankara, San Diego Latino, Chicago Latino, entre otros, ganando un premio a la mejor actriz en el Festival de Marruecos, y un premio del jurado en el Festival FEMI de Guadaloupe, en el Worldfest Houston, que está disponible en Amazon. Las estrellas del estuario es una película infantil que DIVERCINE exhibió en 15 ciudades de América Latina y a través de KidsFirst recorrió 100 ciudades de Estados Unidos. Sus producciones han ganado premios en festivales internacionales y se han exhibido en televisión pública y circuitos universitarios, tales como <em>Pequeños emigrantes</em>, <em>Carnavales del Caribe</em>, <em>Mona, tesoro del Caribe</em> y <em>Mariachis con pantalones</em>. En 2018 co-dirige los cap. 1 y 2 de la serie LatinoAmericans para PBS, serie que gana el Peabody Award y el Imagen Award. En 2019 tuvo una exhibición retrospectiva en la Galería de Arte de la Universidad del Sagrado Corazón, titulada <em>Cartografías de Sonia Fritz, género y migración</em>. Actualmente produce el documental <em>Voces maravillosas</em> que recoge la gesta de cinco cantantes líricos puertorriqueños que destacan en el mundo.
+                              </p>
+                              <p>
+                                Fritz forma parte de la Asociación de Documentalistas de Puerto Rico.
                               </p>
                             </v-card-text>
                             <v-card-actions>
@@ -222,7 +229,7 @@
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
-            <h2 class="display-3">Ejes temáticos</h2>
+            <h2 class="display-3">Líneas de investigación</h2>
           </div>
         </v-flex>
         <v-flex xs12>
@@ -266,7 +273,7 @@
       </v-layout>
     </section>
 
-    <!-- <section id="programa">
+    <section id="programa" class="black white--text">
       <v-layout
         column
         wrap
@@ -288,10 +295,10 @@
                 <v-card flat class="transparent">
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline text-center">
-                      Programa preliminar
+                      Disponible a partir del 1 de junio
                     </div>
                   </v-card-title>
-                  <v-card-text class="body-1 text-center">
+                  <!-- <v-card-text class="body-1 text-center">
                     <p class="font-weight-bold">
                       Lunes 25 de octubre
                     </p>
@@ -326,19 +333,19 @@
                     Sesión plenaria
                     <br />
                     Clausura
-                  </v-card-text>
+                  </v-card-text> -->
                 </v-card>
               </v-flex>
             </v-layout>
           </v-container>
         </v-flex>
-        <v-btn class="mt-12" color="red" dark large href="Convocatoria Encuentro REDOC 2020_b.pdf" disabled>
+        <!-- <v-btn class="mt-12" color="red" dark large href="Convocatoria Encuentro REDOC 2020_b.pdf" disabled>
           Programa final disponible en junio
-        </v-btn>
+        </v-btn> -->
       </v-layout>
-    </section> -->
+    </section>
 
-    <section id="inscripcion" class="black white--text">
+    <section id="inscripcion">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
@@ -360,12 +367,12 @@
                   </v-card-text> -->
                   <v-card-text class="text-center white--text body-1 text-uppercase">
                     <p>
-                      Inscripciones abiertas para ingresar al evento a partir del 1 de mayo
+                      Inscripciones abiertas para asistir al evento del 15 de agosto al 30 de septiembre
                     </p>
                   </v-card-text>
                   <v-card-text class="text-center white--text body-1 font-weight-black" style="text-decoration: underline;">
                     <p>
-                      Solo habrá acceso al Encuentro con previa inscripción.
+                      Acceso al Encuentro con previa inscripción | Evento sin costo | Cupo limitado
                     </p>
                   </v-card-text>
                 </v-card>
@@ -392,21 +399,18 @@
                 </v-card>
               </v-flex> -->
 
-              <v-flex xs12>
+              <!-- <v-flex xs12>
                 <v-card flat class="transparent">
                   <v-card-text class="text-center white--text body-1">
-                    <!-- <p>
-                      Una vez efectuado el pago, favor de remitir el comprobante a: <a href="mailto:redocencuentro2020@mora.edu.mx" style="color: #f44336;">redocencuentro2020@mora.edu.mx</a>
-                    </p> -->
                     <p>
-                      <strong>Si el cupo se llena será indicado en la página electrónica del Encuentro de forma muy visible.</strong>
+                      Una vez efectuado el pago, favor de remitir el comprobante a: <a href="mailto:redocencuentro2020@mora.edu.mx" style="color: #f44336;">redocencuentro2020@mora.edu.mx</a>
                     </p>
-                    <!-- <p>
+                    <p>
                       <strong>Verificar antes de realizar el pago. En ningún caso habrá reembolso del pago.</strong>
-                    </p> -->
+                    </p>
                   </v-card-text>
                 </v-card>
-              </v-flex>
+              </v-flex> -->
 
               <v-flex xs12>
                 <v-card flat class="transparent">
@@ -484,7 +488,7 @@
       </v-layout>
     </section>
 
-    <section id="fechas">
+    <section id="fechas" class="black white--text">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 class="my-4">
           <div class="text-center">
@@ -529,7 +533,7 @@
       </v-layout>
     </section>
 
-    <section id="comite" class="black white--text">
+    <section id="comite">
       <v-layout
         column
         wrap
@@ -569,7 +573,7 @@
       </v-layout>
     </section>
 
-    <section id="contacto">
+    <section id="contacto" class="black white--text">
       <v-container grid-list-xl>
         <v-layout row wrap justify-center class="my-12">
           <v-flex xs12 class="my-4">
@@ -577,8 +581,8 @@
               <h2 class="display-3">Información de contacto</h2>
             </div>
           </v-flex>
-          <v-flex xs12 sm6>
-            <v-card flat class="transparent">
+          <v-flex xs12> <!-- sm6 -->
+            <v-card flat class="transparent justify-center">
               <!-- <v-card-title primary-title class="layout justify-center">
                 <div class="headline">Contacto</div>
               </v-card-title> -->
@@ -587,56 +591,29 @@
                 <br />
                 <span class="font-weight-light">Instituto Mora</span>
               </v-card-text>
-              <v-list class="transparent">
-                <v-list-item>
-                  <v-list-item-action>
-                    <v-icon class="red--text">mdi-phone</v-icon>
-                  </v-list-item-action>
-                  <v-list-item-content>
-                    <v-list-item-title>(+52) 5598-3415 ext. 3114 y 3123</v-list-item-title>
-                  </v-list-item-content>
-                </v-list-item>
-                <v-list-item>
-                  <v-list-item-action>
-                    <v-icon class="red--text">mdi-map-marker</v-icon>
-                  </v-list-item-action>
-                  <v-list-item-content>
-                    <v-list-item-title>
-                      Poussin 45, Mixcoac,
-                      <br />
-                      03730, México, CDMX
-                    </v-list-item-title>
-                  </v-list-item-content>
-                </v-list-item>
-                <v-list-item>
-                  <v-list-item-action>
-                    <v-icon class="red--text">mdi-email</v-icon>
-                  </v-list-item-action>
-                  <v-list-item-content>
-                    <v-list-item-title><a href="mailto:redoc.investigacion@gmail.com" style="color: white;">redoc.investigacion@gmail.com</a></v-list-item-title>
-                  </v-list-item-content>
-                </v-list-item>
-              </v-list>
+              <p class="text-center">
+                <v-icon class="red--text">mdi-map-marker</v-icon> Poussin 45, Mixcoac, 03730, México, CDMX
+              </p>
+
+              <p class="text-center">
+                <v-icon class="red--text">mdi-email</v-icon> <a href="mailto:redocencuentro2020@mora.edu.mx" style="color: white;">redocencuentro2020@mora.edu.mx</a>
+              </p>
             </v-card>
           </v-flex>
-          <v-flex xs12 sm6>
+          <!-- <v-flex xs12>
             <v-card flat class="transparent">
-              <!-- <v-card-title primary-title class="layout justify-center">
-                <div class="headline">Company info</div>
-              </v-card-title> -->
               <v-card-text>
-                <!-- <iframe width="100%" height="350" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?
+                <iframe width="100%" height="350" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?
                 bbox=-99.18746441602708%2C19.37519796836297%2C-99.18298512697223%2C19.37753342382178
                 &amp;layer=mapnik
                 &amp;marker=19.376365700277347%2C-99.18522477149963" style="border: 1px solid black; width: 100%;"></iframe>
                 <br/>
                 <small>
                   <a href="https://www.openstreetmap.org/?mlat=19.37607&amp;mlon=-99.18524#map=18/19.37607/-99.18524">Ver mapa completo</a>
-                </small> -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.9605054617934!2d-99.18540790627482!3d19.375991927909794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff8699ba2825%3A0x965fcbf67f5dbba7!2sInstituto%20Mora!5e0!3m2!1sen!2smx!4v1582825728361!5m2!1sen!2smx" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </small>
               </v-card-text>
             </v-card>
-          </v-flex>
+          </v-flex> -->
         </v-layout>
       </v-container>
     </section>
@@ -726,8 +703,8 @@ export default {
       //   text: '',
       // },
       {
-        date: '1 de mayo de 2021',
-        date2: '31 de septiembre de 2021',
+        date: '15 de agosto de 2021',
+        date2: '30 de septiembre de 2021',
         title: 'Inscripciones para asistentes',
         text: '',
       },
@@ -771,7 +748,6 @@ export default {
       {name: 'Lilia García Torres', title: 'Mtra.', from: 'CIALC - UNAM'},
       {name: 'Rodrigo Colín', title: 'Lic.', from: 'Instituto Mora'},
       {name: 'Jaime Sánchez', title: 'Mtro.', from: 'ENCRYM - INAH'},
-      {name: 'Karen Rivera', title: 'Lic.', from: 'Investigadora independiente'},
       {name: 'Alejandro Gracida', title: 'Dr.', from: 'Filmoteca UNAM'},
     ],
     dialog: {
