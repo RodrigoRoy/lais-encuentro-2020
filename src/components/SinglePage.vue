@@ -290,7 +290,7 @@
                 <v-card flat class="transparent">
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline text-center">
-                      Disponible a partir del 1 de junio
+                      <!--Disponible a partir del 1 de junio-->
                     </div>
                   </v-card-title>
                   <!-- <v-card-text class="body-1 text-center">
@@ -335,22 +335,22 @@
           </v-container>
         </v-flex>
 
-        <v-flex xs12 sm8>
-          <v-container>
-            <v-row>
-              <v-col>
+        <v-flex xs12>
+          <v-container fill-height>
+            <v-row align="center" justify="center">
+              <v-col class="text-center">
                 <v-btn color="red" large outlined @click="openDialog(0)">Lunes</v-btn>
               </v-col>
-              <v-col>
+              <v-col class="text-center">
                 <v-btn color="red" large outlined @click="openDialog(1)">Martes</v-btn>
               </v-col>
-              <v-col>
+              <v-col class="text-center">
                 <v-btn color="red" large outlined @click="openDialog(2)">Miércoles</v-btn>
               </v-col>
-              <v-col>
+              <v-col class="text-center">
                 <v-btn color="red" large outlined @click="openDialog(3)">Jueves</v-btn>
               </v-col>
-              <v-col>
+              <v-col class="text-center">
                 <v-btn color="red" large outlined @click="openDialog(4)">Viernes</v-btn>
               </v-col>
             </v-row>
