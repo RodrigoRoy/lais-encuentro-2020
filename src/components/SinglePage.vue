@@ -339,19 +339,19 @@
           <v-container fill-height>
             <v-row align="center" justify="center">
               <v-col class="text-center">
-                <v-btn color="red" large outlined @click="openDialog(0)">Lunes</v-btn>
+                <v-btn color="red" large outlined @click="openDialog(0)">Lunes <br> 25 octubre </v-btn>
               </v-col>
               <v-col class="text-center">
-                <v-btn color="red" large outlined @click="openDialog(1)">Martes</v-btn>
+                <v-btn color="red" large outlined @click="openDialog(1)">Martes <br> 26 octubre </v-btn>
               </v-col>
               <v-col class="text-center">
-                <v-btn color="red" large outlined @click="openDialog(2)">Miércoles</v-btn>
+                <v-btn color="red" large outlined @click="openDialog(2)">Miércoles <br> 27 octubre</v-btn>
               </v-col>
               <v-col class="text-center">
-                <v-btn color="red" large outlined @click="openDialog(3)">Jueves</v-btn>
+                <v-btn color="red" large outlined @click="openDialog(3)">Jueves <br> 28 octubre</v-btn>
               </v-col>
               <v-col class="text-center">
-                <v-btn color="red" large outlined @click="openDialog(4)">Viernes</v-btn>
+                <v-btn color="red" large outlined @click="openDialog(4)">Viernes <br> 29 octubre</v-btn>
               </v-col>
             </v-row>
           </v-container>
@@ -362,15 +362,15 @@
 
         <v-dialog v-model="dialog.programa" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)">
           <v-card>
-            <v-card-title class="headline justify-center">Mesas Encuentro ReDOC Investigación 2021</v-card-title>
+            <!-- <v-card-title class="headline justify-center">Mesas Encuentro ReDOC Investigación 2021</v-card-title> -->
             <v-card-text class="body-1 text-center">
 
               <v-tabs v-model="indice" background-color="transparent" color="basil" grow slider-size="4">
-                <v-tab key="lunes"> Lunes </v-tab>
-                <v-tab key="martes"> Martes </v-tab>
-                <v-tab key="miercoles"> Miércoles </v-tab>
-                <v-tab key="jueves"> Jueves </v-tab>
-                <v-tab key="viernes"> Viernes </v-tab>
+                <v-tab key="lunes"> Lunes <br> 25 octubre </v-tab>
+                <v-tab key="martes"> Martes <br> 26 octubre</v-tab>
+                <v-tab key="miercoles"> Miércoles <br> 27 octubre</v-tab>
+                <v-tab key="jueves"> Jueves <br> 28 octubre</v-tab>
+                <v-tab key="viernes"> Viernes <br> 29 octubre</v-tab>
               </v-tabs>
 
               <v-tabs-items v-model="indice">
@@ -380,6 +380,9 @@
                       <h2 class="text-h4 font-weight-light red--text">
                         Conferencia magistral con Sonia Fritz
                       </h2>
+                      <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
+                        Migración, género y ambiente en documentales latino-caribeños
+                      </h3>
                       <p class="mb-10 text-h6 red--text">
                         11 a 13.30 horas
                       </p>
@@ -395,23 +398,23 @@
                       </h3>
 
                       <p class="text-body-1">
-                        <strong>Ana Maria Mauad</strong> <br>
+                        <strong>Ana Maria Mauad</strong> 🇧🇷 <br>
                         História Pública e Memória: sons e imagens da Comunidade Arara de Cachoeira Seca (Pará, Brasil)
                       </p>
                       <p class="text-body-1">
-                        <strong>Luis Alejandro García Cervantes</strong> <br>
+                        <strong>Luis Alejandro García Cervantes</strong> 🇲🇽 <br>
                         Dialógicas de investigación creación y arte participativo en un espacio totalitario
                       </p>
                       <p class="text-body-1">
-                        <strong>Diana Isabel Armenta Ramírez</strong> <br>
+                        <strong>Diana Isabel Armenta Ramírez</strong> 🇲🇽 <br>
                         En busca de perspectivas comunitarias de la realidad a documentar
                       </p>
                       <p class="text-body-1">
-                        <strong>Adriana Marcela Moreno Acosta y Esau Salvador Bravo Luis</strong> <br>
+                        <strong>Adriana Marcela Moreno Acosta y Esau Salvador Bravo Luis</strong> 🇲🇽 <br>
                         Comunidades de conocimiento para la Investigación-Creación audiovisual
                       </p>
                       <p class="text-body-1">
-                        <strong>Pablo Iván Argüello González</strong> <br>
+                        <strong>Pablo Iván Argüello González</strong> 🇲🇽 <br>
                         Diseños de antropología visual colaborativa con ciegos y débiles visuales: ensayos metodológicos y creatividad artística
                       </p>
                     </v-card-text>
@@ -432,27 +435,27 @@
                       </h3>
 
                       <p class="text-body-1">
-                        <strong>Ángel Miquel</strong> <br>
+                        <strong>Ángel Miquel</strong> 🇲🇽 <br>
                         Revista Semanal México (1919-1920)
                       </p>
                       <p class="text-body-1">
-                        <strong>Adriana Estrada Álvarez</strong> <br>
+                        <strong>Adriana Estrada Álvarez</strong> 🇲🇽 <br>
                         Cine y rarámuris: del registro etnográfico al cine experimental (1926-1998)
                       </p>
                       <p class="text-body-1">
-                        <strong>Javiera Alejandra Carvallo Fernández</strong> <br>
+                        <strong>Javiera Alejandra Carvallo Fernández</strong> 🇧🇷 <br>
                         Historia y cine documental; un acercamiento al pasado reciente desde las imágenes de La batalla de Chile; la lucha de un pueblo sin armas
                       </p>
                       <p class="text-body-1">
-                        <strong>Jaime Sánchez Macedo</strong> <br>
+                        <strong>Jaime Sánchez Macedo</strong> 🇲🇽 <br>
                         Documental y estudios urbanos: la National Film de Canadá en la ciudad de Monterrey
                       </p>
                       <p class="text-body-1">
-                        <strong>Andrea Meza</strong> <br>
+                        <strong>Andrea Meza</strong> 🇪🇸 <br>
                         Prácticas espaciales en los documentales Aquí se construye y En Construcción de José Luis Guerin
                       </p>
                       <p class="text-body-1">
-                        <strong>Juliana Muylaert Mager</strong> <br>
+                        <strong>Juliana Muylaert Mager</strong> 🇧🇷 <br>
                         É Tudo Verdade: um debate sobre trajetórias, sentidos e formas do documentário brasileiro recente a partir dos festivais
                       </p>
 
@@ -467,23 +470,23 @@
                       </h3>
 
                       <p class="text-body-1">
-                        <strong>Natalia Bermúdez y Josefina Cordera</strong> <br>
+                        <strong>Natalia Bermúdez y Josefina Cordera</strong> 🇦🇷 <br>
                         Cruces disciplinares y representación de la realidad. Construcción de un documental desde la Antropología Visual
                       </p>
                       <p class="text-body-1">
-                        <strong>Vivian Castro</strong> <br>
+                        <strong>Vivian Castro</strong> 🇧🇷 <br>
                         Río desborde: documental de las inundaciones en las ciudades de São Paulo, Brasil y Santiago de Chile
                       </p>
                       <p class="text-body-1">
-                        <strong>Lisabete Coradini</strong> <br>
+                        <strong>Lisabete Coradini</strong> 🇧🇷 <br>
                         Metodologías audiovisuales participativas de investigación en Antropología
                       </p>
                       <p class="text-body-1">
-                        <strong>Carlos Y. Flores</strong> <br>
+                        <strong>Carlos Y. Flores</strong> 🇲🇽 <br>
                         Documental, antropología y crisis de representación
                       </p>
                       <p class="text-body-1">
-                        <strong>Lourdes Roca</strong> <br>
+                        <strong>Lourdes Roca</strong> 🇲🇽 <br>
                         Fuentes para una historia del documental en la región: archivo, metodologías y procesos de enseñanza-aprendizaje
                       </p>
                     </v-card-text>
@@ -496,6 +499,9 @@
                       <h2 class="text-h4 font-weight-light red--text">
                         Conferencia magistral con Lynn Novick
                       </h2>
+                      <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
+                        El oficio de la realización de documentales: encuentros entre arte e investigación
+                      </h3>
                       <p class="mb-10 text-h6 red--text">
                         11 a 13.30 horas
                       </p>
@@ -511,23 +517,23 @@
                       </h3>
 
                       <p class="text-body-1">
-                        <strong>Alfredo Sánchez Carballo</strong> <br>
+                        <strong>Alfredo Sánchez Carballo</strong> 🇲🇽 <br>
                         La creación audiovisual documental desde la problematización en ciencias sociales. Una propuesta metodológica
                       </p>
                       <p class="text-body-1">
-                        <strong>Gloria Marvic García</strong> <br>
+                        <strong>Gloria Marvic García</strong> 🇲🇽 <br>
                         Codificación de material audiovisual desde la teoría fundamentada
                       </p>
                       <p class="text-body-1">
-                        <strong>Lidia Adriana Álvarez Gómez y Fernando López Martínez</strong> <br>
+                        <strong>Lidia Adriana Álvarez Gómez y Fernando López Martínez</strong> 🇲🇽 <br>
                         Enseñanaza audiovisual secundaria
                       </p>
                       <p class="text-body-1">
-                        <strong>María Paz Peirano</strong> <br>
+                        <strong>María Paz Peirano</strong> 🇨🇱 <br>
                         Creación, investigación y documental: Prácticas docentes del Laboratorio de Etnografía Visual de la Universidad de Chile
                       </p>
                       <p class="text-body-1">
-                        <strong>Felipe Morales Leal</strong> <br>
+                        <strong>Felipe Morales Leal</strong> 🇲🇽 <br>
                         El historiantrocomunicólogo, la ruptura disciplinar en la realización documental
                       </p>
                     </v-card-text>
@@ -548,28 +554,24 @@
                       </h3>
 
                       <p class="text-body-1">
-                        <strong>Darwin Mendoza</strong> <br>
+                        <strong>Darwin Mendoza</strong> 🇭🇳 <br>
                         Cine ojo en Latinoamerica: hacia un “siempre” nuevo cine latinoamericano
                       </p>
                       <p class="text-body-1">
-                        <strong>Itzel Martínez del Cañizo</strong> <br>
+                        <strong>Itzel Martínez del Cañizo</strong> 🇲🇽 <br>
                         Extrañamientos familiares: Autoetnografías fílmicas de documentalistas latinoamericanas (2000-2020)
                       </p>
                       <p class="text-body-1">
-                        <strong>Luz Estrello, Julio César Gonzales y Gabriela del Pilar Koc</strong> <br>
+                        <strong>Luz Estrello, Julio César Gonzales y Gabriela del Pilar Koc</strong> 🇵🇪 <br>
                         Miradas en Lucha: la producción documental sobre conflictos y movimientos socioambientales en Perú
                       </p>
                       <p class="text-body-1">
-                        <strong>Juana Schlenker</strong> <br>
+                        <strong>Juana Schlenker</strong> 🇨🇴 <br>
                         Semillero de Cine y Género de la Escuela de Cine y Televisión de la Universidad Nacional
                       </p>
                       <p class="text-body-1">
-                        <strong>Liliana Cordero Marines</strong> <br>
+                        <strong>Liliana Cordero Marines</strong> 🇲🇽 <br>
                         Alanis Obomsawin y su papel como documentalista en la lucha de las Primeras Naciones
-                      </p>
-                      <p class="text-body-1">
-                        <strong>Juliana Muylaert Mager</strong> <br>
-                        É Tudo Verdade: um debate sobre trajetórias, sentidos e formas do documentário brasileiro recente a partir dos festivais
                       </p>
 
                       <h2 class="text-h4 font-weight-light mt-10">
@@ -583,23 +585,23 @@
                       </h3>
 
                       <p class="text-body-1">
-                        <strong>Mitzi Amairani Castellanos Méndez</strong> <br>
+                        <strong>Mitzi Amairani Castellanos Méndez</strong> 🇲🇽 <br>
                         Narrativas emergentes como respuesta al dolor, la alegría y la rebeldía: el documental en Oaxaca
                       </p>
                       <p class="text-body-1">
-                        <strong>Óscar Badillo</strong> <br>
+                        <strong>Óscar Badillo</strong> 🇲🇽 <br>
                         Docu-gore: la representación de la violencia y el narcotráfico en tres documentales sobre la frontera México-Estados Unidos
                       </p>
                       <p class="text-body-1">
-                        <strong>Omara Corona Ramírez</strong> <br>
+                        <strong>Omara Corona Ramírez</strong> 🇲🇽 <br>
                         Figuraciones de lo trans en el audiovisual documental mexicano
                       </p>
                       <p class="text-body-1">
-                        <strong>Karen Rivera Rodríguez</strong> <br>
+                        <strong>Karen Rivera Rodríguez</strong> 🇲🇽 <br>
                         Reflexión sobre los colectivos Cine-Mujer (México y Colombia)
                       </p>
                       <p class="text-body-1">
-                        <strong>Sarah Shamash</strong> <br>
+                        <strong>Sarah Shamash</strong> 🇨🇦 <br>
                         Co-creando espacios de resistencia en las prácticas de investigación documental-creación
                       </p>
                     </v-card-text>
@@ -612,6 +614,9 @@
                       <h2 class="text-h4 font-weight-light red--text">
                         Conferencia magistral con Tiziana Panizza
                       </h2>
+                      <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
+                        Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental
+                      </h3>
                       <p class="mb-10 text-h6 red--text">
                         11 a 13.30 horas
                       </p>
@@ -627,27 +632,27 @@
                       </h3>
 
                       <p class="text-body-1">
-                        <strong>Alexis Barbosa Vargas</strong> <br>
+                        <strong>Alexis Barbosa Vargas</strong> 🇲🇽 <br>
                         Las interrelaciones entre el documental y el noticiario fílmico
                       </p>
                       <p class="text-body-1">
-                        <strong>Alejandro Gracida Rodríguez</strong> <br>
+                        <strong>Alejandro Gracida Rodríguez</strong> 🇲🇽 <br>
                         Tras la sombra de los caudillos: Archivo y registros documentales del poder
                       </p>
                       <p class="text-body-1">
-                        <strong>Antonio Zirión Pérez</strong> <br>
+                        <strong>Antonio Zirión Pérez</strong> 🇲🇽 <br>
                         Redescubrir el Archivo Etnográfico Audiovisual del INI
                       </p>
                       <p class="text-body-1">
-                        <strong>Celso Castro y Thais Blank</strong> <br>
+                        <strong>Celso Castro y Thais Blank</strong> 🇧🇷 <br>
                         Da entrevista ao documentário: sobre a memória da luta pela liberdade em África na narrativa do Comandante Pedro Pires
                       </p>
                       <p class="text-body-1">
-                        <strong>Lilia García Torres</strong> <br>
+                        <strong>Lilia García Torres</strong> 🇲🇽 <br>
                         Patrimonio de la subversión; el caso de los audiovisuales generados por la guerrilla salvadoreña
                       </p>
                       <p class="text-body-1">
-                        <strong>Anaïs Taracena</strong> <br>
+                        <strong>Anaïs Taracena</strong> 🇬🇹 <br>
                         El uso creativo de imágenes de archivo en el cine de no ficción: Estudio de caso de la investigación y realización del documental " El Silencio del topo"
                       </p>
 
