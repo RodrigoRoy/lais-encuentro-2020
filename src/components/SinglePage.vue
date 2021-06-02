@@ -378,7 +378,7 @@
                   <v-card flat >
                     <v-card-text>
                       <h2 class="text-h4 font-weight-light red--text">
-                        Conferencia magistral con Sonia Fritz
+                        Conferencia magistral con Sonia Fritz 🇲🇽
                       </h2>
                       <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
                         Migración, género y ambiente en documentales latino-caribeños
@@ -497,7 +497,7 @@
                   <v-card flat >
                     <v-card-text>
                       <h2 class="text-h4 font-weight-light red--text">
-                        Conferencia magistral con Lynn Novick
+                        Conferencia magistral con Lynn Novick 🇺🇸
                       </h2>
                       <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
                         El oficio de la realización de documentales: encuentros entre arte e investigación
@@ -612,7 +612,7 @@
                   <v-card flat >
                     <v-card-text>
                       <h2 class="text-h4 font-weight-light red--text">
-                        Conferencia magistral con Tiziana Panizza
+                        Conferencia magistral con Tiziana Panizza 🇨🇱
                       </h2>
                       <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
                         Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental
