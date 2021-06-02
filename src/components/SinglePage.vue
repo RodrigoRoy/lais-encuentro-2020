@@ -410,7 +410,7 @@
                         En busca de perspectivas comunitarias de la realidad a documentar
                       </p>
                       <p class="text-body-1">
-                        <strong>Adriana Marcela Moreno Acosta y Esau Salvador Bravo Luis</strong> 🇲🇽 <br>
+                        <strong>Adriana Marcela Moreno Acosta y Esaú Salvador Bravo Luis</strong> 🇲🇽 <br>
                         Comunidades de conocimiento para la Investigación-Creación audiovisual
                       </p>
                       <p class="text-body-1">
@@ -436,7 +436,7 @@
 
                       <p class="text-body-1">
                         <strong>Ángel Miquel</strong> 🇲🇽 <br>
-                        Revista Semanal México (1919-1920)
+                        <em>Revista Semanal México</em> (1919-1920)
                       </p>
                       <p class="text-body-1">
                         <strong>Adriana Estrada Álvarez</strong> 🇲🇽 <br>
@@ -444,7 +444,7 @@
                       </p>
                       <p class="text-body-1">
                         <strong>Javiera Alejandra Carvallo Fernández</strong> 🇧🇷 <br>
-                        Historia y cine documental; un acercamiento al pasado reciente desde las imágenes de La batalla de Chile; la lucha de un pueblo sin armas
+                        Historia y cine documental; un acercamiento al pasado reciente desde las imágenes de <em>La batalla de Chile; la lucha de un pueblo sin armas</em>
                       </p>
                       <p class="text-body-1">
                         <strong>Jaime Sánchez Macedo</strong> 🇲🇽 <br>
@@ -452,11 +452,11 @@
                       </p>
                       <p class="text-body-1">
                         <strong>Andrea Meza</strong> 🇪🇸 <br>
-                        Prácticas espaciales en los documentales Aquí se construye y En Construcción de José Luis Guerin
+                        Prácticas espaciales en los documentales <em>Aquí se construye</em> y <em>En Construcción</em> de José Luis Guerin
                       </p>
                       <p class="text-body-1">
                         <strong>Juliana Muylaert Mager</strong> 🇧🇷 <br>
-                        É Tudo Verdade: um debate sobre trajetórias, sentidos e formas do documentário brasileiro recente a partir dos festivais
+                        <em>É Tudo Verdade</em>: um debate sobre trajetórias, sentidos e formas do documentário brasileiro recente a partir dos festivais
                       </p>
 
                       <h2 class="text-h4 font-weight-light mt-10">
@@ -475,7 +475,7 @@
                       </p>
                       <p class="text-body-1">
                         <strong>Vivian Castro</strong> 🇧🇷 <br>
-                        Río desborde: documental de las inundaciones en las ciudades de São Paulo, Brasil y Santiago de Chile
+                        <em>Río desborde</em>: documental de las inundaciones en las ciudades de São Paulo, Brasil y Santiago de Chile
                       </p>
                       <p class="text-body-1">
                         <strong>Lisabete Coradini</strong> 🇧🇷 <br>
@@ -555,7 +555,7 @@
 
                       <p class="text-body-1">
                         <strong>Darwin Mendoza</strong> 🇭🇳 <br>
-                        Cine ojo en Latinoamerica: hacia un “siempre” nuevo cine latinoamericano
+                        <em>Cine ojo</em> en Latinoamérica: hacia un “siempre” nuevo cine latinoamericano
                       </p>
                       <p class="text-body-1">
                         <strong>Itzel Martínez del Cañizo</strong> 🇲🇽 <br>
@@ -653,7 +653,7 @@
                       </p>
                       <p class="text-body-1">
                         <strong>Anaïs Taracena</strong> 🇬🇹 <br>
-                        El uso creativo de imágenes de archivo en el cine de no ficción: Estudio de caso de la investigación y realización del documental " El Silencio del topo"
+                        El uso creativo de imágenes de archivo en el cine de no ficción: Estudio de caso de la investigación y realización del documental <em>El Silencio del topo</em>
                       </p>
 
                       <h2 class="text-h4 font-weight-light mt-12">
@@ -914,17 +914,22 @@
                 <div class="headline">Contacto</div>
               </v-card-title> -->
               <v-card-text class="text-center body-1">
-                <span class="font-weight-medium">Laboratorio Audiovisual de Investigación Social</span>
+                <span class="font-weight-medium">REDOC Investigación</span>
                 <br />
-                <span class="font-weight-light">Instituto Mora</span>
+                <span class="font-weight-light">Red de investigación sobre documentales</span>
               </v-card-text>
-              <p class="text-center">
-                <v-icon class="red--text">mdi-map-marker</v-icon> Poussin 45, Mixcoac, 03730, México, CDMX
-              </p>
-
               <p class="text-center">
                 <v-icon class="red--text">mdi-email</v-icon> <a href="mailto:redocencuentro2020@mora.edu.mx" style="color: white;">redocencuentro2020@mora.edu.mx</a>
               </p>
+              <p class="text-center mt-12">
+                <span class="font-weight-light">Laboratorio Audiovisual de Investigación Social</span>
+                <br />
+                <span class="font-weight-light">Instituto Mora</span>
+              </p>
+              <p class="text-center">
+                <v-icon class="red--text">mdi-map-marker</v-icon> Poussin 45, Mixcoac, 03730, CDMX, México
+              </p>
+
             </v-card>
           </v-flex>
           <!-- <v-flex xs12>
@@ -1047,7 +1052,7 @@ export default {
       //   text: '',
       // },
       {
-        date: '25 al 30 de octubre de 2021',
+        date: '25 al 29 de octubre de 2021',
         title: 'Encuentro Internacional ReDOC 2021',
         text: '',
       },
@@ -1074,7 +1079,7 @@ export default {
       {name: 'Felipe Morales Leal', title: 'Mtro.', from: 'Instituto Mora'},
       {name: 'Lilia García Torres', title: 'Mtra.', from: 'CIALC - UNAM'},
       {name: 'Rodrigo Colín', title: 'Lic.', from: 'Instituto Mora'},
-      {name: 'Jaime Sánchez', title: 'Mtro.', from: 'ENCRYM - INAH'},
+      {name: 'Jaime Sánchez', title: 'Mtro.', from: 'El Colegio de Michoacán'},
       {name: 'Alejandro Gracida', title: 'Dr.', from: 'Filmoteca UNAM'},
     ],
     dialog: {
