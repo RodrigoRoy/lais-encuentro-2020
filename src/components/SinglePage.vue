@@ -356,6 +356,39 @@
             </v-row>
           </v-container>
         </v-flex>
+        <!-- <v-flex xs12>
+          <v-container fill-height>
+            <v-row align="center" justify="center">
+              <v-col class="text-center">
+                <h3 class="text-h5 font-weight-light text-uppercase text--secondary mb-4 mt-2">Mesas</h3>
+                <p><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(0)">Investigación colaborativa, experiencias comunitarias y estudios de caso</a></p>
+                <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(1)">Metodologías y formación en el campo audiovisual</a></p>
+                <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(3)">Militancias, márgenes, emergencias y resistencias</a></p>
+                <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(4)">Archivación y memoria</a></p>
+              </v-col>
+              <v-col class="text-center">
+                <h3 class="text-h5 font-weight-light text-uppercase text--secondary mb-4 mt-2">Conferencias</h3>
+                <p><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(0)">Migración, género y ambiente en documentales latino-caribeños</a></p>
+                <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(2)">El oficio de la realización de documentales: encuentros entre arte e investigación </a></p>
+                <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(4)">Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental</a></p>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-flex> -->
+        <v-flex xs12 class="text-center">
+          <h3 class="text-h5 font-weight-light text-uppercase text--secondary mb-4 mt-2">Mesas</h3>
+          <p><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(0)">Investigación colaborativa, experiencias comunitarias y estudios de caso</a></p>
+          <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(1)">Metodologías y formación en el campo audiovisual</a></p>
+          <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(3)">Militancias, márgenes, emergencias y resistencias</a></p>
+          <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(4)">Archivación y memoria</a></p>
+        </v-flex>
+        <!-- <v-flex xs12 class="text-center">
+          <h3 class="text-h5 font-weight-light text-uppercase text--secondary mb-4 mt-2">Conferencias</h3>
+          <p><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(0)">Migración, género y ambiente en documentales latino-caribeños</a></p>
+          <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(2)">El oficio de la realización de documentales: encuentros entre arte e investigación </a></p>
+          <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(4)">Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental</a></p>
+        </v-flex> -->
+
         <!-- <v-btn class="mt-6" color="red" large @click.stop="dialog.programa = true" href="Convocatoria Encuentro REDOC 2020_b.pdf">
           Programa final disponible en junio
         </v-btn> -->
@@ -443,7 +476,7 @@
                         Cine y rarámuris: del registro etnográfico al cine experimental (1926-1998)
                       </p>
                       <p class="text-body-1">
-                        <strong>Javiera Alejandra Carvallo Fernández</strong> 🇧🇷 <br>
+                        <strong>Javiera Alejandra Carvallo Fernández</strong> 🇨🇱 <br>
                         Historia y cine documental; un acercamiento al pasado reciente desde las imágenes de <em>La batalla de Chile; la lucha de un pueblo sin armas</em>
                       </p>
                       <p class="text-body-1">
@@ -452,7 +485,7 @@
                       </p>
                       <p class="text-body-1">
                         <strong>Andrea Meza</strong> 🇪🇸 <br>
-                        Prácticas espaciales en los documentales <em>Aquí se construye</em> y <em>En Construcción</em> de José Luis Guerin
+                        Prácticas espaciales en los documentales <em>Aquí se construye</em> de Ignacio Agüero y <em>En Construcción</em> de José Luis Guerín
                       </p>
                       <p class="text-body-1">
                         <strong>Juliana Muylaert Mager</strong> 🇧🇷 <br>
@@ -559,7 +592,7 @@
                       </p>
                       <p class="text-body-1">
                         <strong>Itzel Martínez del Cañizo</strong> 🇲🇽 <br>
-                        Extrañamientos familiares: Autoetnografías fílmicas de documentalistas latinoamericanas (2000-2020)
+                        Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)
                       </p>
                       <p class="text-body-1">
                         <strong>Luz Estrello, Julio César Gonzales y Gabriela del Pilar Koc</strong> 🇵🇪 <br>
@@ -773,7 +806,7 @@
                     * <span class="caption"> Estudiantes participantes tendrán 50% de descuento presentando credencia vigente</span>
                   </v-card-text> -->
                   <v-card-actions class="justify-center">
-                    <!-- <v-btn class="mt-12" dark large color="red" @click.stop="dialog.infoPago = true">Datos para el pago</v-btn> -->
+                    <!-- <v-btn class="mt-0" dark large color="red" @click.stop="dialog.infoPago = true">INSCRIPCIÓN</v-btn> -->
                   </v-card-actions>
                   <v-dialog v-model="dialog.infoPago" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)" width="70%">
                     <v-card>
