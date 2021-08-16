@@ -806,7 +806,7 @@
                     * <span class="caption"> Estudiantes participantes tendrán 50% de descuento presentando credencia vigente</span>
                   </v-card-text> -->
                   <v-card-actions class="justify-center">
-                    <!-- <v-btn class="mt-0" dark large color="red" @click.stop="dialog.infoPago = true">INSCRIPCIÓN</v-btn> -->
+                    <v-btn class="mt-0" dark large color="red" href="http://lais-interno.mora.edu.mx/convocatorias/index.php/818258?lang=es-MX">Inscripción al Encuentro</v-btn>
                   </v-card-actions>
                   <v-dialog v-model="dialog.infoPago" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)" width="70%">
                     <v-card>
