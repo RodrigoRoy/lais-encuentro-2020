@@ -1,29 +1,22 @@
 # lais-encuentro-2020
 
-## Project setup
-```
-npm install
-```
+Proyecto de la página web del Encuentro Internacional REDOC Investigación para y sobre documentales
 
-### Compiles and hot-reloads for development
-```
+## Dependencias
+
+[NodeJS](https://nodejs.org) (version LTS)
+
+## Ambiente de desarrollo
+```sh
+npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+### Compilar para desarrollo
+```sh
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+## Licencia
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Este proyecto es software libre: puede ser redistribuido y/o modificado bajo los términos de **GNU General Public License v3.0** siempre y cuando se mantenga la misma licencia.
