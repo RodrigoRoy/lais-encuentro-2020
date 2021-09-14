@@ -1,6 +1,8 @@
+<!-- Contenido principal del Encuentro, dispuesto en un estilo "Single Page App"
+Cada parte principal se divide en una sección (<section>) -->
 <template>
-<div>
   <v-content>
+    <!-- Imagen de encabezado -->
     <section class="black white--text" id="inicio" @click="$vuetify.goTo('#inscripcion', options)" style="cursor: pointer;">
       <v-layout column wrap class="my-0 pt-0" align-center >
         <v-flex xs12 class="mt-4 mb-0">
@@ -11,37 +13,9 @@
       </v-layout>
     </section>
 
-    <!-- <section class="black" @click="$vuetify.goTo('#inscripcion', options)" style="cursor: pointer;">
-      <v-layout column wrap class="my-0 py-0" align-center>
-        <v-flex xs12>
-          <div class="text-center">
-            <h2 class="display-3 my-0 py-0" style="text-decoration: underline;">
-              Inscripciones abiertas
-            </h2>
-          </div>
-        </v-flex>
-      </v-layout>
-    </section> -->
-
-    <!-- <section class="red darken-4">
-      <v-layout column wrap class="my-0 py-0" align-center>
-        <v-flex xs12>
-          <div class="text-center">
-            <h2 class="display-3 my-0 py-0">
-              Inscripciones cerradas
-            </h2>
-          </div>
-        </v-flex>
-      </v-layout>
-    </section> -->
-
+    <!-- Acerca de REDOC Investigación -->
     <section id="redoc">
-      <v-layout
-        column
-        wrap
-        class="mt-0 mb-12 py-12"
-        align-center
-      >
+      <v-layout column wrap class="mt-0 mb-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
             <h2 class="display-3">
@@ -56,7 +30,6 @@
               <v-flex xs12>
                 <v-card flat class="transparent">
                   <v-card-text class="text-center">
-                    <!-- <v-icon x-large class="red--text">mdi-filmstrip</v-icon> -->
                   </v-card-text>
                   <v-card-text class="body-1 text-center white--text">
                     ReDOC Investigación constituye una red de investigación sobre documentales concebida como un espacio que reúne a investigadores, docentes, archivistas, curadores, estudiantes y realizadores con interés en los estudios de estos documentos audiovisuales desde las diversas disciplinas involucradas en ellos.
@@ -69,6 +42,7 @@
       </v-layout>
     </section>
 
+    <!-- Conferencias magistrales -->
     <section id="magistrales" class="black white--text">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
@@ -97,6 +71,8 @@
                         <v-card-actions class="justify-center">
                           <v-btn text color="red" @click.stop="dialog.lynn = true">Leer más...</v-btn>
                         </v-card-actions>
+
+                        <!-- Ventana emergente (dialog) con la información de conferencista -->
                         <v-dialog v-model="dialog.lynn" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)">
                           <v-card>
                             <v-card-title class="headline">Lynn Novick</v-card-title>
@@ -125,6 +101,7 @@
                         </v-dialog>
                       </v-card>
                     </v-flex>
+
                     <v-flex xs12 md4>
                       <v-card flat class="transparent white--text">
                         <v-img class="white--text align-end" height="200px" contain position="top center" src="@/assets/Foto_Sonia_2.jpg">
@@ -137,29 +114,12 @@
                         <v-card-actions class="justify-center">
                           <v-btn text color="red" @click.stop="dialog.maria = true">Leer más...</v-btn>
                         </v-card-actions>
+
+                        <!-- Ventana emergente (dialog) con la información de conferencista -->
                         <v-dialog v-model="dialog.maria" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)">
                           <v-card>
                             <v-card-title class="headline">Sonia Fritz</v-card-title>
                             <v-card-text class="body-1">
-                              <!-- <p>
-                                Estudió la licenciatura en Ciencias de la Comunicación en la Universidad Nacional Autónoma de México, y se tituló con la tesis <em>Filmación de un documental sobre la Unión de Mujeres Yalaltecas en Oaxaca</em>. Durante su estancia en la UNAM, Fritz cursó la materia de Taller de guion cinematográfico que impartía Manuel Michel, quien más tarde la invitó a trabajar en un proyecto de filmación. En ese momento Fritz ya se dedicaba al periodismo, profesión que ejercía en medios comerciales y a nivel comunitario en Tepito, pero cuando estuvo en el trabajo de filmación decidió dedicarse al cine. Tras esa experiencia trabajó en el Centro de Producción de Cortometrajes y más tarde en el Cine-Difusión de la Secretaría de Educación Pública (SEP), también trabajo como asistente de producción, asistente de dirección, editora y productora.
-                              </p>
-                              <p>
-                                Se integró al Colectivo Cine Mujer en 1978 porque le interesaba trabajar en cine con un equipo de mujeres sobre temas específicos de la condición de las mujeres. El colectivo trabajaba a partir de la autogestión, metodología participativa con las personas filmadas y exhibición autogestiva con debate final. En ese año se realizó en la Ciudad de México un encuentro de mujeres de grupos autónomos, el registro de ese evento dio resultado al documental <em>Es primera vez</em>, en el que Fritz participó como sonidista y editora.
-                              </p>
-                              <p>
-                                En 1982, la Unión de Mujeres Yalaltecas, después de observar los filmes <em>Es primera vez</em> y <em>Vida de angel</em>, contactó al CCM para ver la posibilidad de que realizara un documental sobre su lucha, su comunidad y organización. Sonia Fritz y otra compañera acudieron al llamado, las autoridades municipales sugirieron que el documental incluyera algunos tópicos, la comunidad también colaboraría con el alojamiento y los alimentos, mientras que el CCM aportaría el trabajo y parte del equipo técnico, con lo que el resultado fue un filme colaborativo, mismo que se exhibió por primera vez en la cancha de la comunidad. <em>Yalaltecas</em> narra la vida cotidiana de las mujeres de la sierra de Oaxaca que decide luchar por sus demandas.
-                              </p>
-                              <p>
-                                Posteriormente ingresó al Archivo Etnográfico Audiovisual del Instituto Nacional Indigenista para editar unas tomas que se habían generado druante la fiesta de la Guelaguetza, en la ciudad de Oaxaca. Para dar sentido a esas imágenes propuso una historia y un guion centradas en los músicos de la comunidad zapoteca Santa Catarina Albarradas, Oaxaca, que habían migrado a Ciudad Nezahualcoyotl, donde reproducían su cultura musical. El resultado fue <em>De bandas, vidas y otros sones</em> (1985).
-                              </p>
-                              <p>
-                                Después de terminar el documental Fritz se mudó a Puerto Rico donde nació su hijo. En 1989 fundó Isla Films, una compañía abocada a la producción de audiovisuales educativos y culturales. En 1993 realizó su primer trabajo histórico, a partir de la adaptación (docudrama) del libro Luisa Capetillo: historia de una mujer proscrita de la periodista Norma Valle Ferrer (1990).
-                              </p>
-                              <p>
-                                Cursó la maestría en Artes Visuales en Vermon Collegue en Norwich University y el doctorado en Literatura del Caribe Inglés en la Universidad de Puerto Rico, recinto Piedras Negras. Es profesora en la Escuela de Comunicación Ferré Rangel de la Universidad del Sagrado Corazón. Es miembro de la National Latino Independent Producers (NALIP).
-                              </p> -->
-
                               <p>
                                 Estudió Comunicación en la Universidad Nacional Autónoma de México, trabajó como free lance en películas y documentales, y fue parte del Colectivo Cine Mujer. En 1986 ganó un “Ariel” a mejor documental por “De bandas, vidas y otros sones” producido por el INI. En 1985 se mudó a Puerto Rico y comenzó a enseñar en la Universidad del Sagrado Corazón. Posteriormente estudió una maestría en Artes Visuales en Vermont College at Norwich University. Ha realizado más de 25 documentales sobre los temas que le apasionan tales como migración, género, artes visuales, temas sociales y ambientales. En el año 2000 dirigió su primera película de ficción y luego realiza tres más. <em>América</em> fue seleccionada por los festivales de Huelva, Montreal, Guadalajara, Rabat, Ankara, San Diego Latino, Chicago Latino, entre otros, ganando un premio a la mejor actriz en el Festival de Marruecos, y un premio del jurado en el Festival FEMI de Guadaloupe, en el Worldfest Houston, que está disponible en Amazon. Las estrellas del estuario es una película infantil que DIVERCINE exhibió en 15 ciudades de América Latina y a través de KidsFirst recorrió 100 ciudades de Estados Unidos. Sus producciones han ganado premios en festivales internacionales y se han exhibido en televisión pública y circuitos universitarios, tales como <em>Pequeños emigrantes</em>, <em>Carnavales del Caribe</em>, <em>Mona, tesoro del Caribe</em> y <em>Mariachis con pantalones</em>. En 2018 co-dirige los cap. 1 y 2 de la serie LatinoAmericans para PBS, serie que gana el Peabody Award y el Imagen Award. En 2019 tuvo una exhibición retrospectiva en la Galería de Arte de la Universidad del Sagrado Corazón, titulada <em>Cartografías de Sonia Fritz, género y migración</em>. Actualmente produce el documental <em>Voces maravillosas</em> que recoge la gesta de cinco cantantes líricos puertorriqueños que destacan en el mundo.
                               </p>
@@ -174,7 +134,9 @@
                           </v-card>
                         </v-dialog>
                       </v-card>
-                    </v-flex><v-flex xs12 md4>
+                    </v-flex>
+
+                    <v-flex xs12 md4>
                       <v-card flat class="transparent white--text">
                         <v-img class="white--text align-end" height="200px" contain position="top center" src="@/assets/Foto_Tiziana_2.jpg">
                         </v-img>
@@ -186,6 +148,8 @@
                         <v-card-actions class="justify-center">
                           <v-btn text color="red" @click.stop="dialog.tiziana = true">Leer más...</v-btn>
                         </v-card-actions>
+
+                        <!-- Ventana emergente (dialog) con la información de conferencista -->
                         <v-dialog v-model="dialog.tiziana" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)">
                           <v-card>
                             <v-card-title class="headline">Tiziana Panizza</v-card-title>
@@ -225,6 +189,7 @@
       </v-layout>
     </section>
 
+    <!-- Lineas de investigación -->
     <section id="ejes">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
@@ -273,6 +238,7 @@
       </v-layout>
     </section>
 
+    <!-- Programa -->
     <section id="programa" class="black white--text">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
@@ -290,45 +256,8 @@
                 <v-card flat class="transparent">
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline text-center">
-                      <!--Disponible a partir del 1 de junio-->
                     </div>
                   </v-card-title>
-                  <!-- <v-card-text class="body-1 text-center">
-                    <p class="font-weight-bold">
-                      Lunes 25 de octubre
-                    </p>
-                    Inauguración
-                    <br />
-                    Paneles temáticos
-                    <br />
-                    Conferencia magistral
-                  </v-card-text>
-                  <v-card-text class="body-1 text-center">
-                    <p class="font-weight-bold">
-                      Martes 26 de octubre
-                    </p>
-                    Paneles temáticos
-                    <br />
-                    Conferencia magistral
-                  </v-card-text>
-                  <v-card-text class="body-1 text-center">
-                    <p class="font-weight-bold">
-                      Miércoles 27 de octubre
-                    </p>
-                    Paneles temáticos
-                    <br />
-                    Conferencia magistral
-                  </v-card-text>
-                  <v-card-text class="body-1 text-center">
-                    <p class="font-weight-bold">
-                      Jueves 28 de octubre
-                    </p>
-                    Paneles temáticos
-                    <br />
-                    Sesión plenaria
-                    <br />
-                    Clausura
-                  </v-card-text> -->
                 </v-card>
               </v-flex>
             </v-layout>
@@ -356,25 +285,7 @@
             </v-row>
           </v-container>
         </v-flex>
-        <!-- <v-flex xs12>
-          <v-container fill-height>
-            <v-row align="center" justify="center">
-              <v-col class="text-center">
-                <h3 class="text-h5 font-weight-light text-uppercase text--secondary mb-4 mt-2">Mesas</h3>
-                <p><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(0)">Investigación colaborativa, experiencias comunitarias y estudios de caso</a></p>
-                <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(1)">Metodologías y formación en el campo audiovisual</a></p>
-                <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(3)">Militancias, márgenes, emergencias y resistencias</a></p>
-                <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(4)">Archivación y memoria</a></p>
-              </v-col>
-              <v-col class="text-center">
-                <h3 class="text-h5 font-weight-light text-uppercase text--secondary mb-4 mt-2">Conferencias</h3>
-                <p><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(0)">Migración, género y ambiente en documentales latino-caribeños</a></p>
-                <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(2)">El oficio de la realización de documentales: encuentros entre arte e investigación </a></p>
-                <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(4)">Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental</a></p>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-flex> -->
+
         <v-flex xs12 class="text-center">
           <h3 class="text-h5 font-weight-light text-uppercase text--secondary mb-4 mt-2">Mesas</h3>
           <p><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(0)">Investigación colaborativa, experiencias comunitarias y estudios de caso</a></p>
@@ -382,20 +293,10 @@
           <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(3)">Militancias, márgenes, emergencias y resistencias</a></p>
           <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(4)">Archivación y memoria</a></p>
         </v-flex>
-        <!-- <v-flex xs12 class="text-center">
-          <h3 class="text-h5 font-weight-light text-uppercase text--secondary mb-4 mt-2">Conferencias</h3>
-          <p><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(0)">Migración, género y ambiente en documentales latino-caribeños</a></p>
-          <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(2)">El oficio de la realización de documentales: encuentros entre arte e investigación </a></p>
-          <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(4)">Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental</a></p>
-        </v-flex> -->
 
-        <!-- <v-btn class="mt-6" color="red" large @click.stop="dialog.programa = true" href="Convocatoria Encuentro REDOC 2020_b.pdf">
-          Programa final disponible en junio
-        </v-btn> -->
-
+        <!-- Ventana emergente (dialog) con la información específica del programa dividida por días -->
         <v-dialog v-model="dialog.programa" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)">
           <v-card>
-            <!-- <v-card-title class="headline justify-center">Mesas Encuentro ReDOC Investigación 2021</v-card-title> -->
             <v-card-text class="body-1 text-center">
 
               <v-tabs v-model="indice" background-color="transparent" color="basil" grow slider-size="4">
@@ -705,6 +606,7 @@
       </v-layout>
     </section>
 
+    <!-- Inscripciones -->
     <section id="inscripcion">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
@@ -720,11 +622,6 @@
             <v-layout row wrap align-center>
               <v-flex xs12>
                 <v-card flat class="transparent">
-                  <!-- <v-card-text class="text-center white--text body-1">
-                    <p>
-                      Esta inscripción otorga el derecho al acceso con gafete y paquete de recepción, refrigerios y convivios, así como la acreditación de participación como asistentes al Encuentro.
-                    </p>
-                  </v-card-text> -->
                   <v-card-text class="text-center white--text body-1 text-uppercase">
                     <p>
                       Inscripciones abiertas para asistir al evento del 15 de agosto al 30 de septiembre
@@ -738,108 +635,11 @@
                 </v-card>
               </v-flex>
 
-              <!-- <v-flex xs12 md6>
-                <v-card flat class="transparent ">
-                  <v-card-title primary-title class="layout justify-center">
-                    <div class="body-1 text-center">Pago del 1 de marzo al 31 de agosto de 2020</div>
-                  </v-card-title>
-                  <v-card-text class="body-1 text-center font-weight-bold">
-                    $480 MXN / $25 USD
-                  </v-card-text>
-                </v-card>
-              </v-flex>
-              <v-flex xs12 md6>
-                <v-card flat class="transparent ">
-                  <v-card-title primary-title class="layout justify-center">
-                    <div class="body-1 text-center">Pago del 1 al 21 de septiembre de 2020</div>
-                  </v-card-title>
-                  <v-card-text class="body-1 text-center font-weight-bold">
-                    $675 MXN / $35 USD
-                  </v-card-text>
-                </v-card>
-              </v-flex> -->
-
-              <!-- <v-flex xs12>
-                <v-card flat class="transparent">
-                  <v-card-text class="text-center white--text body-1">
-                    <p>
-                      Una vez efectuado el pago, favor de remitir el comprobante a: <a href="mailto:redocencuentro2020@mora.edu.mx" style="color: #f44336;">redocencuentro2020@mora.edu.mx</a>
-                    </p>
-                    <p>
-                      <strong>Verificar antes de realizar el pago. En ningún caso habrá reembolso del pago.</strong>
-                    </p>
-                  </v-card-text>
-                </v-card>
-              </v-flex> -->
-
               <v-flex xs12>
                 <v-card flat class="transparent">
-                  <!-- <v-card-text class="text-center white--text body-1">
-                    <p>
-                      Las inscripciones otorgan el derecho al acceso con gafete y paquete de recepción, las tres comidas (solo ponentes y conferencistas), refrigerios y convivios, así como la acreditación de participación.
-                    </p>
-                    <v-simple-table dark>
-                      <template v-slot:default>
-                        <thead>
-                          <tr>
-                            <th class="text-left"></th>
-                            <th class="text-center subtitle-1 d-xs-table-cell d-sm-none">Pago anticipado</th>
-                            <th class="text-center subtitle-1 d-xs-table-cell d-sm-none">Pago en septiembre</th>
-                            <th class="text-center subtitle-1 d-none d-sm-table-cell">Pago de marzo a agosto de 2020</th>
-                            <th class="text-center subtitle-1 d-none d-sm-table-cell">Pago en septiembre de 2020</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td class="body-1"> Participantes* </td>
-                            <td class="body-1"> 75 USD </td>
-                            <td class="body-1"> 100 USD </td>
-                          </tr>
-                          <tr>
-                            <td class="body-1"> Asistentes </td>
-                            <td class="body-1"> 25 USD </td>
-                            <td class="body-1"> 35 USD </td>
-                          </tr>
-                        </tbody>
-                      </template>
-                    </v-simple-table>
-                    * <span class="caption"> Estudiantes participantes tendrán 50% de descuento presentando credencia vigente</span>
-                  </v-card-text> -->
                   <v-card-actions class="justify-center">
                     <v-btn class="mt-0" dark large color="red" href="http://lais-interno.mora.edu.mx/convocatorias/index.php/818258?lang=es-MX">Inscripción al Encuentro</v-btn>
                   </v-card-actions>
-                  <v-dialog v-model="dialog.infoPago" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)" width="70%">
-                    <v-card>
-                      <v-card-title class="headline">Datos para el pago</v-card-title>
-                      <v-card-text class="body-1">
-                        <p>
-                          Cuenta
-                          <br />
-                          <strong> BBVA BANCOMER: 0151875221</strong>
-                        </p>
-                        <p>
-                          A nombre de
-                          <br />
-                          <strong>R38 S91 CONACYT INSTITUTO MORA R.P.5/INSTITUTO DE INVESTIGACIONES DR. JOSÉ MA. LUIS MORA</strong>
-                        </p>
-                        <p>
-                          CLABE INTERBANCARIA
-                          <br />
-                          <strong>012180001518752210</strong>
-                        </p>
-                        <p>
-                          BIC O SWIFT
-                          <br />
-                          <strong>BCMRMXMMPYM</strong>
-                        </p>
-                        <p>
-                          Dirección
-                          <br />
-                          <strong>Av. de la Reforma 510, Col. Juárez, CDMX</strong>
-                        </p>
-                      </v-card-text>
-                    </v-card>
-                  </v-dialog>
                 </v-card>
               </v-flex>
             </v-layout>
@@ -848,6 +648,7 @@
       </v-layout>
     </section>
 
+    <!-- Fechas importantes -->
     <section id="fechas" class="black white--text">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 class="my-4">
@@ -867,6 +668,7 @@
                     <!-- <v-icon x-large class="red--text">mdi-calendar</v-icon> -->
                   </v-card-text>
                   <v-card-text>
+                    <!-- Uso de timeline de Vuetify para manejo de fechas. Los datos se definen en la variable "fechas" -->
                     <v-timeline>
                       <v-timeline-item v-for="(item, index) in fechas" :key="index" right color="red" fill-dot small>
                         <template v-slot:opposite>
@@ -893,13 +695,9 @@
       </v-layout>
     </section>
 
+    <!-- Comité organizador -->
     <section id="comite">
-      <v-layout
-        column
-        wrap
-        class="my-12 py-12"
-        align-center
-      >
+      <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
             <h2 class="display-3">
@@ -916,6 +714,7 @@
         <v-flex xs12>
           <v-container fluid>
             <v-row dense align="center" justify="center">
+              <!-- Información de los integrantes definida en la variable "comite" -->
               <v-col cols="7" v-for="(person, index) in comite" :key="index">
                 <v-card flat class="py-1 my-n2">
                   <v-card-text class="text-center body-1 py-1 my-0">
@@ -933,6 +732,7 @@
       </v-layout>
     </section>
 
+    <!-- Información de contacto -->
     <section id="contacto" class="black white--text">
       <v-container grid-list-xl>
         <v-layout row wrap justify-center class="my-12">
@@ -943,9 +743,6 @@
           </v-flex>
           <v-flex xs12> <!-- sm6 -->
             <v-card flat class="transparent justify-center">
-              <!-- <v-card-title primary-title class="layout justify-center">
-                <div class="headline">Contacto</div>
-              </v-card-title> -->
               <v-card-text class="text-center body-1">
                 <span class="font-weight-medium">REDOC Investigación</span>
                 <br />
@@ -962,34 +759,15 @@
               <p class="text-center">
                 <v-icon class="red--text">mdi-map-marker</v-icon> Poussin 45, Mixcoac, 03730, CDMX, México
               </p>
-
             </v-card>
           </v-flex>
-          <!-- <v-flex xs12>
-            <v-card flat class="transparent">
-              <v-card-text>
-                <iframe width="100%" height="350" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?
-                bbox=-99.18746441602708%2C19.37519796836297%2C-99.18298512697223%2C19.37753342382178
-                &amp;layer=mapnik
-                &amp;marker=19.376365700277347%2C-99.18522477149963" style="border: 1px solid black; width: 100%;"></iframe>
-                <br/>
-                <small>
-                  <a href="https://www.openstreetmap.org/?mlat=19.37607&amp;mlon=-99.18524#map=18/19.37607/-99.18524">Ver mapa completo</a>
-                </small>
-              </v-card-text>
-            </v-card>
-          </v-flex> -->
         </v-layout>
       </v-container>
     </section>
 
+    <!-- Pie de página con logos -->
     <v-footer color="black darken-2">
       <v-layout row wrap align-center>
-        <!-- <v-flex xs12>
-          <div class="grey--text text--darken-2 ml-4 text-center">
-            ReDOC Investigación – 2020
-          </div>
-        </v-flex> -->
         <v-flex xs12 sm3>
           <div class="grey--text text--darken-2 ml-4 text-center justify-center">
           </div>
@@ -1032,58 +810,21 @@
       </v-layout>
     </v-footer>
   </v-content>
-</div>
 </template>
 
 <script>
 export default {
   name: 'SinglePage',
 
+  // Variables principales
   data: () => ({
-    lineasDeParticipacion: [
-      'Documentales como fuentes de investigación: del documento a la fuente',
-      'Estudios sobre difusión, puesta en acceso y recepción',
-      'Fuentes de investigación en el documental: usos y tratamientos',
-      'Recursos narrativos y expresivos en el documental: tratamiento y estudio',
-      'Metodologías de investigación-realización de documental',
-      'Metodologías de análisis de documentales',
-      'Temporalidades y espacialidades en el quehacer documental',
-      'Periodos y coyunturas en estudio sobre el documental',
-      'Militancia a través del documental',
-      'El documental desde la sociedad civil organizada',
-      'Enfoques y prácticas interdisciplinarias en la investigación sobre documental',
-      'Enseñanza del documental, experiencias y prácticas docentes con documentales',
-      'Archivo, patrimonio y memoria en el documental',
-    ],
     fechas: [
-      // {
-      //   date: '30 de enero de 2020',
-      //   title: 'Cierre de convocatoria para ponentes',
-      //   text: '',
-      // },
-      // {
-      //   date: '1 de marzo al 30 de mayo de 2020',
-      //   // date2: '31 de agosto de 2020',
-      //   title: 'Inscripciones para ponentes',
-      //   text: '',
-      // },
       {
         date: '15 de agosto de 2021',
         date2: '30 de septiembre de 2021',
         title: 'Inscripciones para asistentes',
         text: '',
       },
-      // {
-      //   date: '1 al 21 de septiembre de 2020',
-      //   // date2: '24 de septiembre de 2020',
-      //   title: 'Inscripciones sin descuento',
-      //   text: '',
-      // },
-      // {
-      //   date: '14 al 18 de septiembre de 2020',
-      //   title: 'Proyección de documentales',
-      //   text: '',
-      // },
       {
         date: '25 al 29 de octubre de 2021',
         title: 'Encuentro Internacional ReDOC 2021',
@@ -1122,7 +863,8 @@ export default {
       infoPago: false,
       programa: false,
     },
-    indice: null,
+    indice: null, // parámetro para mostrar programa del evento
+    // Configuración adicional para el movimiento de pantalla en imagen de encabezado
     options: {
       duration: 900,
       offset: 0,
@@ -1130,6 +872,7 @@ export default {
     },
   }),
   methods: {
+    // Permite abrir la pestaña (tab) correcta
     openDialog: function(numberOfTab){
       // alert(dayOfWeek);
       this.indice = numberOfTab;
@@ -1152,12 +895,4 @@ export default {
 .v-application .black {
   background-color: rgba(0, 0, 0, 0.55) !important;
 }
-
-/* section{
-  background-color: rgba(0, 0, 0, 0.3) !important;
-} */
-
-/* .x-large {
-  font-size: 58px !important;
-} */
 </style>

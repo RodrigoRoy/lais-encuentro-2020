@@ -1,8 +1,9 @@
+<!-- Archivo principal de Vue para organizar barra de navegación e incluir el contenido como componente (SinglePage) -->
+
 <template>
   <v-app>
     <v-app-bar app dark class="hidden-sm-and-down">
       <v-img src="@/assets/logo_ReDOC.png" max-width="100" contain class=" mr-2" @click="$vuetify.goTo('#inicio', options)" style="cursor: pointer;"></v-img>
-      <!-- <v-toolbar-title>Encuentro ReDOC 2020</v-toolbar-title> -->
 
       <v-spacer></v-spacer>
 
@@ -16,26 +17,25 @@
       <v-btn text @click="$vuetify.goTo('#contacto', options)">Contacto</v-btn>
     </v-app-bar>
 
+    <!-- Carga de asset para fondo de pantalla -->
     <v-content class="pt-0 mt-0" :style="{ 'background-image': 'url(' + require('@/assets/BackgroundEncuentro_2.png') + ')' }">
-      <!-- <HelloWorld/> -->
       <SinglePage/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld';
 import SinglePage from './components/SinglePage';
 
 export default {
   name: 'App',
 
   components: {
-    // HelloWorld,
     SinglePage,
   },
 
   data: () => ({
+    // Configuración adicional para el movimiento de pantalla en menús de navbar
     options: {
       duration: 900,
       offset: 0,
@@ -46,6 +46,7 @@ export default {
 </script>
 
 <style scoped>
+/* Fondo de pantalla fijo */
 .v-content {
   background-size: cover !important;
   background-attachment: fixed !important;
