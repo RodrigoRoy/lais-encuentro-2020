@@ -317,7 +317,10 @@ Cada parte principal se divide en una sección (<section>) -->
                       <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
                         Migración, género y ambiente en documentales latino-caribeños
                       </h3>
-                      <p class="mb-10 text-h6 red--text">
+                      <p class="text-body-1 font-weight-medium red--text">
+                        Anfitriona: Lilia García
+                      </p>
+                      <p class="mt-n2 mb-10 text-h6 red--text">
                         11 a 13.30 horas
                       </p>
 
@@ -330,6 +333,9 @@ Cada parte principal se divide en una sección (<section>) -->
                       <h3 class="mb-6 mt-n2 text-h5">
                         Investigación colaborativa, experiencias comunitarias y estudios de caso 1ª parte
                       </h3>
+                      <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
+                        Modera: Sarah Samash
+                      </p>
 
                       <p class="text-body-1">
                         <strong>Ana Maria Mauad</strong> 🇧🇷 <br>
@@ -367,6 +373,9 @@ Cada parte principal se divide en una sección (<section>) -->
                       <h3 class="mb-6 mt-n2 text-h5">
                         Investigación colaborativa, experiencias comunitarias y estudios de caso 2ª parte
                       </h3>
+                      <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
+                        Modera: Ana Mauad
+                      </p>
 
                       <p class="text-body-1">
                         <strong>Ángel Miquel</strong> 🇲🇽 <br>
@@ -402,6 +411,9 @@ Cada parte principal se divide en una sección (<section>) -->
                       <h3 class="mb-6 mt-n2 text-h5">
                         Metodologías y formación en el campo audiovisual 1ª parte
                       </h3>
+                      <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
+                        Modera: Gloria Marvic
+                      </p>
 
                       <p class="text-body-1">
                         <strong>Natalia Bermúdez y Josefina Cordera</strong> 🇦🇷 <br>
@@ -436,7 +448,10 @@ Cada parte principal se divide en una sección (<section>) -->
                       <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
                         El oficio de la realización de documentales: encuentros entre arte e investigación
                       </h3>
-                      <p class="mb-10 text-h6 red--text">
+                      <p class="text-body-1 font-weight-medium red--text">
+                        Anfitrión: Felipe Morales
+                      </p>
+                      <p class="mt-n2 mb-10 text-h6 red--text">
                         11 a 13.30 horas
                       </p>
 
@@ -449,6 +464,9 @@ Cada parte principal se divide en una sección (<section>) -->
                       <h3 class="mb-6 mt-n2 text-h5">
                         Metodologías y formación en el campo audiovisual 2ª parte
                       </h3>
+                      <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
+                        Modera: Josefina Cordera
+                      </p>
 
                       <p class="text-body-1">
                         <strong>Alfredo Sánchez Carballo</strong> 🇲🇽 <br>
@@ -486,6 +504,9 @@ Cada parte principal se divide en una sección (<section>) -->
                       <h3 class="mb-6 mt-n2 text-h5">
                         Militancias, márgenes, emergencias y resistencias 1ª parte
                       </h3>
+                      <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
+                        Modera: Alejandro Gracida
+                      </p>
 
                       <p class="text-body-1">
                         <strong>Darwin Mendoza</strong> 🇭🇳 <br>
@@ -517,11 +538,14 @@ Cada parte principal se divide en una sección (<section>) -->
                       <h3 class="mb-6 mt-n2 text-h5">
                         Militancias, márgenes, emergencias y resistencias 2ª parte
                       </h3>
+                      <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
+                        Modera: Adriana Estrada
+                      </p>
 
-                      <p class="text-body-1">
+                      <!-- <p class="text-body-1">
                         <strong>Mitzi Amairani Castellanos Méndez</strong> 🇲🇽 <br>
                         Narrativas emergentes como respuesta al dolor, la alegría y la rebeldía: el documental en Oaxaca
-                      </p>
+                      </p> -->
                       <p class="text-body-1">
                         <strong>Óscar Badillo</strong> 🇲🇽 <br>
                         Docu-gore: la representación de la violencia y el narcotráfico en tres documentales sobre la frontera México-Estados Unidos
@@ -551,7 +575,10 @@ Cada parte principal se divide en una sección (<section>) -->
                       <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
                         Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental
                       </h3>
-                      <p class="mb-10 text-h6 red--text">
+                      <p class="text-body-1 font-weight-medium red--text">
+                        Anfitriona: Lourdes Roca
+                      </p>
+                      <p class="mt-n2 mb-10 text-h6 red--text">
                         11 a 13.30 horas
                       </p>
 
@@ -564,6 +591,9 @@ Cada parte principal se divide en una sección (<section>) -->
                       <h3 class="mb-6 mt-n2 text-h5">
                         Archivación y memoria
                       </h3>
+                      <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
+                        Modera: Jaime Sánchez
+                      </p>
 
                       <p class="text-body-1">
                         <strong>Alexis Barbosa Vargas</strong> 🇲🇽 <br>
