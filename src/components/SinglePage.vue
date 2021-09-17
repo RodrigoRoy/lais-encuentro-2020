@@ -318,7 +318,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Migración, género y ambiente en documentales latino-caribeños
                       </h3>
                       <p class="text-body-1 font-weight-medium red--text">
-                        Anfitriona: Lilia García
+                        Anfitriona ReDOC: Lilia García Torres
                       </p>
                       <p class="mt-n2 mb-10 text-h6 red--text">
                         11 a 13.30 horas
@@ -334,7 +334,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Investigación colaborativa, experiencias comunitarias y estudios de caso 1ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
-                        Modera: Sarah Samash
+                        Anfitriona ReDOC: Sarah Samash
                       </p>
 
                       <p class="text-body-1">
@@ -374,7 +374,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Investigación colaborativa, experiencias comunitarias y estudios de caso 2ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
-                        Modera: Ana Mauad
+                        Anfitriona ReDOC: Ana Mauad
                       </p>
 
                       <p class="text-body-1">
@@ -412,7 +412,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Metodologías y formación en el campo audiovisual 1ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
-                        Modera: Gloria Marvic
+                        Anfitriona ReDOC: Gloria Marvic
                       </p>
 
                       <p class="text-body-1">
@@ -449,7 +449,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         El oficio de la realización de documentales: encuentros entre arte e investigación
                       </h3>
                       <p class="text-body-1 font-weight-medium red--text">
-                        Anfitrión: Felipe Morales
+                        Anfitrión ReDOC: Felipe Morales Leal
                       </p>
                       <p class="mt-n2 mb-10 text-h6 red--text">
                         11 a 13.30 horas
@@ -465,7 +465,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Metodologías y formación en el campo audiovisual 2ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
-                        Modera: Josefina Cordera
+                        Anfitriona ReDOC: Josefina Cordera
                       </p>
 
                       <p class="text-body-1">
@@ -505,7 +505,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Militancias, márgenes, emergencias y resistencias 1ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
-                        Modera: Alejandro Gracida
+                        Anfitrión ReDOC: Alejandro Gracida
                       </p>
 
                       <p class="text-body-1">
@@ -539,7 +539,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Militancias, márgenes, emergencias y resistencias 2ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
-                        Modera: Adriana Estrada
+                        Anfitriona ReDOC: Adriana Estrada
                       </p>
 
                       <!-- <p class="text-body-1">
@@ -576,7 +576,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental
                       </h3>
                       <p class="text-body-1 font-weight-medium red--text">
-                        Anfitriona: Lourdes Roca
+                        Anfitriona ReDOC: Lourdes Roca
                       </p>
                       <p class="mt-n2 mb-10 text-h6 red--text">
                         11 a 13.30 horas
@@ -592,7 +592,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Archivación y memoria
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
-                        Modera: Jaime Sánchez
+                        Anfitrión ReDOC: Jaime Sánchez
                       </p>
 
                       <p class="text-body-1">
