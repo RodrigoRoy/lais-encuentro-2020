@@ -288,10 +288,18 @@ Cada parte principal se divide en una sección (<section>) -->
 
         <v-flex xs12 class="text-center">
           <h3 class="text-h5 font-weight-light text-uppercase text--secondary mb-4 mt-2">Mesas</h3>
-          <p><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(0)">Investigación colaborativa, experiencias comunitarias y estudios de caso</a></p>
-          <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(1)">Metodologías y formación en el campo audiovisual</a></p>
-          <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(3)">Militancias, márgenes, emergencias y resistencias</a></p>
-          <p class="mt-n2"><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(4)">Archivación y memoria</a></p>
+          <p>
+            <v-icon small color="teal" class="mr-1">mdi-circle</v-icon><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(0)">Investigación colaborativa, experiencias comunitarias y estudios de caso</a>
+          </p>
+          <p class="mt-n2">
+            <v-icon small color="indigo" class="mr-1">mdi-circle</v-icon><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(1)">Metodologías y formación en el campo audiovisual</a>
+          </p>
+          <p class="mt-n2">
+            <v-icon small color="purple" class="mr-1">mdi-circle</v-icon><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(3)">Militancias, márgenes, emergencias y resistencias</a>
+          </p>
+          <p class="mt-n2">
+            <v-icon small color="lime" class="mr-1">mdi-circle</v-icon><a class="red--text text-decoration-underline font-weight-medium body-1" @click="openDialog(4)">Archivación y memoria</a>
+          </p>
         </v-flex>
 
         <!-- Ventana emergente (dialog) con la información específica del programa dividida por días -->
@@ -315,7 +323,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Conferencia magistral con Sonia Fritz 🇲🇽
                       </h2>
                       <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
-                        Migración, género y ambiente en documentales latino-caribeños
+                        <v-icon small color="orange" class="mr-1">mdi-circle</v-icon>Migración, género y ambiente en documentales latino-caribeños
                       </h3>
                       <p class="text-body-1 font-weight-medium red--text">
                         Anfitriona ReDOC: Lilia García Torres
@@ -331,7 +339,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         16 a 18 horas
                       </p>
                       <h3 class="mb-6 mt-n2 text-h5">
-                        Investigación colaborativa, experiencias comunitarias y estudios de caso 1ª parte
+                        <v-icon small color="teal" class="mr-1">mdi-circle</v-icon>Investigación colaborativa, experiencias comunitarias y estudios de caso 1ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
                         Anfitriona ReDOC: Sarah Samash
@@ -371,7 +379,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         11 a 13.30 horas
                       </p>
                       <h3 class="mb-6 mt-n2 text-h5">
-                        Investigación colaborativa, experiencias comunitarias y estudios de caso 2ª parte
+                        <v-icon small color="teal" class="mr-1">mdi-circle</v-icon>Investigación colaborativa, experiencias comunitarias y estudios de caso 2ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
                         Anfitriona ReDOC: Ana Mauad
@@ -409,7 +417,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         16 a 18 horas
                       </p>
                       <h3 class="mb-6 mt-n2 text-h5">
-                        Metodologías y formación en el campo audiovisual 1ª parte
+                        <v-icon small color="indigo" class="mr-1">mdi-circle</v-icon>Metodologías y formación en el campo audiovisual 1ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
                         Anfitriona ReDOC: Gloria Marvic
@@ -446,7 +454,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Conferencia magistral con Lynn Novick 🇺🇸
                       </h2>
                       <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
-                        El oficio de la realización de documentales: encuentros entre arte e investigación
+                        <v-icon small color="orange" class="mr-1">mdi-circle</v-icon>El oficio de la realización de documentales: encuentros entre arte e investigación
                       </h3>
                       <p class="text-body-1 font-weight-medium red--text">
                         Anfitrión ReDOC: Felipe Morales Leal
@@ -462,7 +470,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         16 a 18 horas
                       </p>
                       <h3 class="mb-6 mt-n2 text-h5">
-                        Metodologías y formación en el campo audiovisual 2ª parte
+                        <v-icon small color="indigo" class="mr-1">mdi-circle</v-icon>Metodologías y formación en el campo audiovisual 2ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
                         Anfitriona ReDOC: Josefina Cordera
@@ -502,19 +510,23 @@ Cada parte principal se divide en una sección (<section>) -->
                         11 a 13.30 horas
                       </p>
                       <h3 class="mb-6 mt-n2 text-h5">
-                        Militancias, márgenes, emergencias y resistencias 1ª parte
+                        <v-icon small color="purple" class="mr-1">mdi-circle</v-icon>Militancias, márgenes, emergencias y resistencias 1ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
                         Anfitrión ReDOC: Alejandro Gracida
                       </p>
 
-                      <p class="text-body-1">
+                      <!-- <p class="text-body-1">
                         <strong>Darwin Mendoza</strong> 🇭🇳 <br>
                         <em>Cine ojo</em> en Latinoamérica: hacia un “siempre” nuevo cine latinoamericano
-                      </p>
+                      </p> -->
                       <p class="text-body-1">
                         <strong>Itzel Martínez del Cañizo</strong> 🇲🇽 <br>
                         Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)
+                      </p>
+                      <p class="text-body-1">
+                        <strong>Andrea Ortega Serrano</strong> 🇲🇽 <br>
+                        Una tempestad. Nuevos sentidos desde las prácticas de las mujeres documentalistas en el contexto de nuevas formas de guerra en México
                       </p>
                       <p class="text-body-1">
                         <strong>Luz Estrello, Julio César Gonzales y Gabriela del Pilar Koc</strong> 🇵🇪 <br>
@@ -536,7 +548,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         16 a 18 horas
                       </p>
                       <h3 class="mb-6 mt-n2 text-h5">
-                        Militancias, márgenes, emergencias y resistencias 2ª parte
+                        <v-icon small color="purple" class="mr-1">mdi-circle</v-icon>Militancias, márgenes, emergencias y resistencias 2ª parte
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
                         Anfitriona ReDOC: Adriana Estrada
@@ -573,7 +585,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Conferencia magistral con Tiziana Panizza 🇨🇱
                       </h2>
                       <h3 class="mb-2 mt-2 text-h5 red--text font-weight-medium">
-                        Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental
+                        <v-icon small color="orange" class="mr-1">mdi-circle</v-icon>Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental
                       </h3>
                       <p class="text-body-1 font-weight-medium red--text">
                         Anfitriona ReDOC: Lourdes Roca
@@ -589,7 +601,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         16 a 18.30 horas
                       </p>
                       <h3 class="mb-6 mt-n2 text-h5">
-                        Archivación y memoria
+                        <v-icon small color="lime" class="mr-1">mdi-circle</v-icon>Archivación y memoria
                       </h3>
                       <p class="text-body-1 font-weight-medium mt-n4 mb-8 ">
                         Anfitrión ReDOC: Jaime Sánchez
@@ -636,8 +648,101 @@ Cada parte principal se divide en una sección (<section>) -->
       </v-layout>
     </section>
 
+    <!-- Sala de proyecciones -->
+    <section id="sala">
+      <v-layout column wrap class="my-12 py-12" align-center>
+        <v-flex xs12 class="text-center">
+          <h2 class="display-3 mt-4">
+            Sala de Proyecciones
+            <v-icon x-large class="red--text">mdi-video-vintage</v-icon>
+          </h2>
+        </v-flex>
+        <v-flex xs12 sm4 class="mb-6">
+          <v-container grid-list-xl>
+            <v-layout row wrap align-center>
+              <v-flex xs12>
+                <v-card flat class="transparent">
+                  <v-card-text class="text-center">
+                  </v-card-text>
+                  <v-card-text class="body-1 text-center white--text">
+                    La sala de proyecciones es un espacio que brinda la oportunidad de visionar documentales que las y los ponentes del Encuentro refieren en sus participaciones.<br>
+                    Los documentales se podrán ver en línea entre el <strong>20 de octubre y el 3 de noviembre de 2021</strong>, en FilminLatinoMx, Retina Latina, Vimeo y YouTube.
+                  </v-card-text>
+                </v-card>
+              </v-flex>
+            </v-layout>
+          </v-container>
+        </v-flex>
+        <!-- Carrusel con información del documental -->
+        <v-flex xs12 class="text-center">
+          <v-hover v-slot="{ hover }">
+            <v-carousel v-model="carousel" fluid delimiter-icon="mdi-movie" show-arrows-on-hover :cycle="!hover" hide-delimiters :show-arrows="false" interval="10000" class="py-0">
+              <v-carousel-item v-for="(documental, i) in documentales" :key="i">
+                <!-- Cada elemento del carrusel serán dos columnas con información e imagen -->
+                <v-sheet color="rgba(0,0,0,0.7)" height="100%" tile>
+                  <v-row class="fill-height" align="center" justify="center">
+                    <div>
+                      <v-container>
+                        <v-row align="center">
+                          <v-col sm="12" md="5" offset-md="1">
+                            <!-- Información del documental -->
+                            <p class="text-h4 font-weight-medium">
+                              <!-- <a class="white--text text-decoration-underline" :href="documental.link"> -->
+                                {{ documental.name }}
+                              <!-- </a> -->
+                            </p>
+                            <p v-if="documental.altName" class="text-h6 font-weight-light my-n2">
+                              {{ documental.altName }}
+                            </p>
+                            <p class="my-4 text-h6">
+                              {{ documental.author }},<span v-if="documental.year"> {{ documental.year }},</span> {{ documental.time }} <span v-if="documental.time">minutos</span>
+                            </p>
+
+                            <v-divider class="mx-4 mb-6"></v-divider>
+
+                            <!-- Información relativa al programa -->
+                            <div class="mt-4 text-body-1">
+                              <a class="white--text text-decoration-underline" @click="openDialog(documental.dialog)">{{ documental.speech }}</a>
+                            </div>
+                            <v-chip color="secondary" class="ma-2"><v-icon small :color="documental.color" class="mr-1">mdi-circle</v-icon> {{documental.category}}</v-chip>
+                            <v-chip color="secondary" class="ma-2"> {{documental.speaker}} </v-chip>
+                          </v-col>
+
+                          <!-- Imagen/animación del documental -->
+                          <v-col sm="12" md="5" align="center" justify="center">
+                            <!-- <a :href="documental.link" target="_blank"> -->
+                              <v-img max-height="250" contain :src="require('@/assets/' + documental.image)"></v-img>
+                            <!-- </a> -->
+                          </v-col>
+                        </v-row>
+                      </v-container>
+                    </div>
+                  </v-row>
+                </v-sheet>
+              </v-carousel-item>
+            </v-carousel>
+          </v-hover>
+        </v-flex>
+
+        <!-- Listado de documentales en formato de v-cards -->
+        <v-container xs12>
+          <v-row align="center" justify="left">
+            <v-col cols="6" md="3" v-for="(documental, i) in documentales" :key="i">
+              <v-hover v-slot="{ hover }">
+                <v-card outlined shaped color="rgba(0,0,0,0.8)" @click="carousel = i" :class="{ 'on-hover': hover, 'my-selection': i == carousel, 'my-v-card': true }">
+                  <v-card-text class="justify-center text-center text-h6 font-weight-bold">
+                    <v-icon small :color="documental.color" class="mr-1">mdi-circle</v-icon>{{ documental.name }}
+                  </v-card-text>
+                </v-card>
+              </v-hover>
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-layout>
+    </section>
+
     <!-- Inscripciones -->
-    <section id="inscripcion">
+    <section id="inscripcion" class="black white--text">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
@@ -668,7 +773,7 @@ Cada parte principal se divide en una sección (<section>) -->
               <v-flex xs12>
                 <v-card flat class="transparent">
                   <v-card-actions class="justify-center">
-                    <v-btn class="mt-0" dark large color="red" href="http://lais-interno.mora.edu.mx/convocatorias/index.php/818258?lang=es-MX">Inscripción al Encuentro</v-btn>
+                    <v-btn disabled class="mt-0" dark large color="red" href="http://lais-interno.mora.edu.mx/convocatorias/index.php/818258?lang=es-MX">Inscripción al Encuentro concluidas</v-btn>
                   </v-card-actions>
                 </v-card>
               </v-flex>
@@ -679,7 +784,7 @@ Cada parte principal se divide en una sección (<section>) -->
     </section>
 
     <!-- Fechas importantes -->
-    <section id="fechas" class="black white--text">
+    <section id="fechas">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 class="my-4">
           <div class="text-center">
@@ -726,7 +831,7 @@ Cada parte principal se divide en una sección (<section>) -->
     </section>
 
     <!-- Comité organizador -->
-    <section id="comite">
+    <section id="comite" class="black white--text">
       <v-layout column wrap class="my-12 py-12" align-center >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
@@ -763,7 +868,7 @@ Cada parte principal se divide en una sección (<section>) -->
     </section>
 
     <!-- Información de contacto -->
-    <section id="contacto" class="black white--text">
+    <section id="contacto">
       <v-container grid-list-xl>
         <v-layout row wrap justify-center class="my-12">
           <v-flex xs12 class="my-4">
@@ -856,6 +961,12 @@ export default {
         text: '',
       },
       {
+        date: '20 de octubre de 2021',
+        date2: '3 de noviembre de 2021',
+        title: 'Sala de proyecciones',
+        text: '',
+      },
+      {
         date: '25 al 29 de octubre de 2021',
         title: 'Encuentro Internacional ReDOC 2021',
         text: '',
@@ -886,7 +997,7 @@ export default {
       {name: 'Jaime Sánchez', title: 'Mtro.', from: 'El Colegio de Michoacán'},
       {name: 'Alejandro Gracida', title: 'Dr.', from: 'Filmoteca UNAM'},
     ],
-    dialog: {
+    dialog: { // banderas para visibilizar las diferentes ventanas emergentes
       lynn: false,
       maria: false,
       tiziana: false,
@@ -900,6 +1011,136 @@ export default {
       offset: 0,
       easing: 'easeInOutCubic',
     },
+    carousel: 0, // indice del elemento en carrusel que se muestra
+    documentales: [ // documentales para sala de proyecciones
+      {
+        name: 'Pequeños inmigrantes',
+        altName: 'Little Immigrants',
+        speaker: 'Sonia Fritz',
+        speech: 'Migración, género y ambiente en documentales latino-caribeños',
+        author: 'Sonia Fritz',
+        year: '2008',
+        time: '42',
+        link: 'https://www.youtube.com/watch?v=DHrGAmzmlDM',
+        dialog: 0,
+        image: 'PequenosInmigrantes.png',
+        color: 'orange',
+        category: 'Conferencia magistral'
+      },
+      {
+        name: 'Luisa Capetillo. Pasión de justicia',
+        altName: '',
+        speaker: 'Sonia Fritz',
+        speech: 'Migración, género y ambiente en documentales latino-caribeños',
+        author: 'Sonia Fritz',
+        year: '1993',
+        time: '41',
+        link: 'https://www.youtube.com/watch?v=Bu2bw7TqjRs',
+        dialog: 0,
+        image: 'LuisaCapetillo.png',
+        color: 'orange',
+        category: 'Conferencia magistral'
+      },
+      {
+        name: 'Puerto Rico: arte e identidad',
+        altName: '',
+        speaker: 'Sonia Fritz',
+        speech: 'Migración, género y ambiente en documentales latino-caribeños',
+        author: 'Sonia Fritz',
+        year: '1991',
+        time: '56',
+        link: 'https://www.youtube.com/watch?v=u_E8PYUCWAU',
+        dialog: 0,
+        image: 'PuertoRico.png',
+        color: 'orange',
+        category: 'Conferencia magistral'
+      },
+      {
+        name: '15 faros de Puerto Rico',
+        altName: '',
+        speaker: 'Sonia Fritz',
+        speech: 'Migración, género y ambiente en documentales latino-caribeños',
+        author: 'Sonia Fritz',
+        year: '2015',
+        time: '72',
+        link: 'https://youtu.be/FjwyXxYkyFQ?t=928',
+        dialog: 0,
+        image: 'FarosDePuertoRico.png',
+        color: 'orange',
+        category: 'Conferencia magistral'
+      },
+      {
+        name: 'En construcción',
+        altName: '',
+        speaker: 'Andrea Meza Navarro',
+        speech: 'Prácticas espaciales en los documentales Aquí se construye de Ignacio Agüero y En Construcción de José Luis Guerín',
+        author: 'José Luis Guerín',
+        year: '2000',
+        time: '127',
+        link: 'https://www.youtube.com/watch?v=puiLV6rWdlE',
+        dialog: 1,
+        image: 'EnConstruccion.gif',
+        color: 'teal',
+        category: 'Investigación colaborativa'
+      },
+      {
+        name: 'Sensorium',
+        altName: '[Primer corte]',
+        speaker: 'Pablo Iván Argüello González',
+        speech: 'Diseños de antropología visual colaborativa con ciegos y débiles visuales: ensayos metodológicos y creatividad artística',
+        author: 'Pablo Iván Argüello y Diana Luna',
+        year: '',
+        time: '26',
+        link: 'https://vimeo.com/378409110',
+        dialog: 0,
+        image: 'Sensorium.gif',
+        color: 'teal',
+        category: 'Investigación colaborativa'
+      },
+      {
+        name: 'Tío Yim',
+        altName: 'Uncle Yim',
+        speaker: 'Itzel Martínez',
+        speech: 'Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)',
+        author: 'Luna Marán',
+        year: '2019',
+        time: '83',
+        link: 'https://www.retinalatina.org/video/tio-yim/',
+        dialog: 3,
+        image: 'TioYim.png',
+        color: 'purple',
+        category: 'Militancias'
+      },
+      {
+        name: 'Trans',
+        altName: 'Episodio 2. Víctimas de la vanidad',
+        speaker: 'Omara Corona Ramírez',
+        speech: 'Figuraciones de lo trans en el audiovisual documental mexicano',
+        author: 'Flavio Florencio',
+        year: '2016',
+        time: '19',
+        link: 'https://www.youtube.com/watch?v=Z9VflEln_3s',
+        dialog: 3,
+        image: 'Trans.gif',
+        color: 'purple',
+        category: 'Militancias'
+      },
+      {
+        name: 'The memory of the struggle for Freedom in Africa',
+        altName: 'An interview with Comandante Pedro Pires',
+        speaker: 'Celso Castro e Thais Blank',
+        speech: 'Da entrevista ao documentário: sobre a memória da luta pela liberdade em África na narrativa do Comandante Pedro Pires',
+        author: 'Celso Castro, Thais Blank, Diana Sichel',
+        year: '2019',
+        time: '11',
+        link: 'https://www.youtube.com/watch?v=VQg2fM7hwRs',
+        dialog: 4,
+        image: 'FreedomInAfrica.gif',
+        color: 'lime',
+        category: 'Archivación y memoria'
+      },
+    ],
+    tab: null,
   }),
   methods: {
     // Permite abrir la pestaña (tab) correcta
@@ -924,5 +1165,18 @@ export default {
 
 .v-application .black {
   background-color: rgba(0, 0, 0, 0.55) !important;
+}
+
+/* Efecto de aparición para documentales de sala de proyecciones */
+.my-v-card {
+  transition: opacity .4s ease-in-out;
+}
+/* Sin opacidad a documental seleccionado (se emplea en conjunto con evento hover) */
+.my-selection {
+  opacity: 1.0 !important;
+}
+/* Transparencia a documentales si no están seleccionados */
+.my-v-card:not(.on-hover) {
+  opacity: 0.4;
 }
 </style>

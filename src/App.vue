@@ -11,6 +11,7 @@
       <v-btn text @click="$vuetify.goTo('#magistrales', options)">Conferencistas</v-btn>
       <v-btn text @click="$vuetify.goTo('#ejes', options)">Líneas</v-btn>
       <v-btn text @click="$vuetify.goTo('#programa', options)">Programa</v-btn>
+      <v-btn text @click="$vuetify.goTo('#sala', options)">Proyecciones</v-btn>
       <v-btn text @click="$vuetify.goTo('#inscripcion', options)">Inscripciones</v-btn>
       <v-btn text @click="$vuetify.goTo('#fechas', options)">Fechas</v-btn>
       <v-btn text @click="$vuetify.goTo('#comite', options)">Comité</v-btn>
