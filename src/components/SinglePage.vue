@@ -1023,7 +1023,7 @@ export default {
         time: '42',
         link: 'https://www.youtube.com/watch?v=DHrGAmzmlDM',
         dialog: 0,
-        image: 'PequenosInmigrantes.png',
+        image: 'PequenosInmigrantes.gif',
         color: 'orange',
         category: 'Conferencia magistral'
       },
@@ -1037,7 +1037,7 @@ export default {
         time: '41',
         link: 'https://www.youtube.com/watch?v=Bu2bw7TqjRs',
         dialog: 0,
-        image: 'LuisaCapetillo.png',
+        image: 'LuisaCapetillo.gif',
         color: 'orange',
         category: 'Conferencia magistral'
       },
@@ -1079,7 +1079,7 @@ export default {
         time: '127',
         link: 'https://www.youtube.com/watch?v=puiLV6rWdlE',
         dialog: 1,
-        image: 'EnConstruccion.gif',
+        image: 'EnConstruccion.png',
         color: 'teal',
         category: 'Investigación colaborativa'
       },
