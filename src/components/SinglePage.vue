@@ -61,6 +61,40 @@ Cada parte principal se divide en una sección (<section>) -->
                   <v-layout row wrap align-start justify-space-around fill-height>
                     <v-flex xs12 md4>
                       <v-card flat class="transparent white--text">
+                        <v-img class="white--text align-end" height="200px" contain position="top center" src="@/assets/Foto_Sonia_2.jpg">
+                        </v-img>
+                        <v-card-title class="justify-center">Sonia Fritz</v-card-title>
+                        <v-card-subtitle>Universidad del Sagrado Corazón</v-card-subtitle>
+                        <v-card-text class="text-center white--text body-1">
+                          Estudió Comunicación en la UNAM y trabajó como free lance en películas y documentales, ganando un “Ariel” a mejor documental por “De bandas, vidas y otros sones” en 1986. En 1985 se muda a Puerto Rico y sigue trabajando los temas que le apasionan tales como migración, género, artes visuales y ecología en sus más de 25 documentales y 4 películas de ficción.
+                        </v-card-text>
+                        <v-card-actions class="justify-center">
+                          <v-btn text color="red" @click.stop="dialog.maria = true">Leer más...</v-btn>
+                        </v-card-actions>
+
+                        <!-- Ventana emergente (dialog) con la información de conferencista -->
+                        <v-dialog v-model="dialog.maria" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)">
+                          <v-card>
+                            <v-card-title class="headline">Sonia Fritz</v-card-title>
+                            <v-card-text class="body-1">
+                              <p>
+                                Estudió Comunicación en la Universidad Nacional Autónoma de México, trabajó como free lance en películas y documentales, y fue parte del Colectivo Cine Mujer. En 1986 ganó un “Ariel” a mejor documental por “De bandas, vidas y otros sones” producido por el INI. En 1985 se mudó a Puerto Rico y comenzó a enseñar en la Universidad del Sagrado Corazón. Posteriormente estudió una maestría en Artes Visuales en Vermont College at Norwich University. Ha realizado más de 25 documentales sobre los temas que le apasionan tales como migración, género, artes visuales, temas sociales y ambientales. En el año 2000 dirigió su primera película de ficción y luego realiza tres más. <em>América</em> fue seleccionada por los festivales de Huelva, Montreal, Guadalajara, Rabat, Ankara, San Diego Latino, Chicago Latino, entre otros, ganando un premio a la mejor actriz en el Festival de Marruecos, y un premio del jurado en el Festival FEMI de Guadaloupe, en el Worldfest Houston, que está disponible en Amazon. Las estrellas del estuario es una película infantil que DIVERCINE exhibió en 15 ciudades de América Latina y a través de KidsFirst recorrió 100 ciudades de Estados Unidos. Sus producciones han ganado premios en festivales internacionales y se han exhibido en televisión pública y circuitos universitarios, tales como <em>Pequeños emigrantes</em>, <em>Carnavales del Caribe</em>, <em>Mona, tesoro del Caribe</em> y <em>Mariachis con pantalones</em>. En 2018 co-dirige los cap. 1 y 2 de la serie LatinoAmericans para PBS, serie que gana el Peabody Award y el Imagen Award. En 2019 tuvo una exhibición retrospectiva en la Galería de Arte de la Universidad del Sagrado Corazón, titulada <em>Cartografías de Sonia Fritz, género y migración</em>. Actualmente produce el documental <em>Voces maravillosas</em> que recoge la gesta de cinco cantantes líricos puertorriqueños que destacan en el mundo.
+                              </p>
+                              <p>
+                                Fritz forma parte de la Asociación de Documentalistas de Puerto Rico.
+                              </p>
+                            </v-card-text>
+                            <v-card-actions>
+                              <v-spacer></v-spacer>
+                              <v-btn color="red" text @click="dialog.maria = false">Cerrar</v-btn>
+                            </v-card-actions>
+                          </v-card>
+                        </v-dialog>
+                      </v-card>
+                    </v-flex>
+
+                    <v-flex xs12 md4>
+                      <v-card flat class="transparent white--text">
                         <v-img max-height="200px" contain position="top center" src="@/assets/Foto_Lynn_2.jpg">
                         </v-img>
                         <v-card-title class="justify-center">Lynn Novick</v-card-title>
@@ -96,40 +130,6 @@ Cada parte principal se divide en una sección (<section>) -->
                             <v-card-actions>
                               <v-spacer></v-spacer>
                               <v-btn color="red" text @click="dialog.lynn = false">Cerrar</v-btn>
-                            </v-card-actions>
-                          </v-card>
-                        </v-dialog>
-                      </v-card>
-                    </v-flex>
-
-                    <v-flex xs12 md4>
-                      <v-card flat class="transparent white--text">
-                        <v-img class="white--text align-end" height="200px" contain position="top center" src="@/assets/Foto_Sonia_2.jpg">
-                        </v-img>
-                        <v-card-title class="justify-center">Sonia Fritz</v-card-title>
-                        <v-card-subtitle>Universidad del Sagrado Corazón</v-card-subtitle>
-                        <v-card-text class="text-center white--text body-1">
-                          Estudió Comunicación en la UNAM y trabajó como free lance en películas y documentales, ganando un “Ariel” a mejor documental por “De bandas, vidas y otros sones” en 1986. En 1985 se muda a Puerto Rico y sigue trabajando los temas que le apasionan tales como migración, género, artes visuales y ecología en sus más de 25 documentales y 4 películas de ficción.
-                        </v-card-text>
-                        <v-card-actions class="justify-center">
-                          <v-btn text color="red" @click.stop="dialog.maria = true">Leer más...</v-btn>
-                        </v-card-actions>
-
-                        <!-- Ventana emergente (dialog) con la información de conferencista -->
-                        <v-dialog v-model="dialog.maria" overlay-opacity="6" overlay-color="rgba(0,0,0,0.9)">
-                          <v-card>
-                            <v-card-title class="headline">Sonia Fritz</v-card-title>
-                            <v-card-text class="body-1">
-                              <p>
-                                Estudió Comunicación en la Universidad Nacional Autónoma de México, trabajó como free lance en películas y documentales, y fue parte del Colectivo Cine Mujer. En 1986 ganó un “Ariel” a mejor documental por “De bandas, vidas y otros sones” producido por el INI. En 1985 se mudó a Puerto Rico y comenzó a enseñar en la Universidad del Sagrado Corazón. Posteriormente estudió una maestría en Artes Visuales en Vermont College at Norwich University. Ha realizado más de 25 documentales sobre los temas que le apasionan tales como migración, género, artes visuales, temas sociales y ambientales. En el año 2000 dirigió su primera película de ficción y luego realiza tres más. <em>América</em> fue seleccionada por los festivales de Huelva, Montreal, Guadalajara, Rabat, Ankara, San Diego Latino, Chicago Latino, entre otros, ganando un premio a la mejor actriz en el Festival de Marruecos, y un premio del jurado en el Festival FEMI de Guadaloupe, en el Worldfest Houston, que está disponible en Amazon. Las estrellas del estuario es una película infantil que DIVERCINE exhibió en 15 ciudades de América Latina y a través de KidsFirst recorrió 100 ciudades de Estados Unidos. Sus producciones han ganado premios en festivales internacionales y se han exhibido en televisión pública y circuitos universitarios, tales como <em>Pequeños emigrantes</em>, <em>Carnavales del Caribe</em>, <em>Mona, tesoro del Caribe</em> y <em>Mariachis con pantalones</em>. En 2018 co-dirige los cap. 1 y 2 de la serie LatinoAmericans para PBS, serie que gana el Peabody Award y el Imagen Award. En 2019 tuvo una exhibición retrospectiva en la Galería de Arte de la Universidad del Sagrado Corazón, titulada <em>Cartografías de Sonia Fritz, género y migración</em>. Actualmente produce el documental <em>Voces maravillosas</em> que recoge la gesta de cinco cantantes líricos puertorriqueños que destacan en el mundo.
-                              </p>
-                              <p>
-                                Fritz forma parte de la Asociación de Documentalistas de Puerto Rico.
-                              </p>
-                            </v-card-text>
-                            <v-card-actions>
-                              <v-spacer></v-spacer>
-                              <v-btn color="red" text @click="dialog.maria = false">Cerrar</v-btn>
                             </v-card-actions>
                           </v-card>
                         </v-dialog>
