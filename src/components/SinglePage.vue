@@ -666,15 +666,16 @@ Cada parte principal se divide en una sección (<section>) -->
                   </v-card-text>
                   <v-card-text class="body-1 text-center white--text">
                     La sala de proyecciones es un espacio que brinda la oportunidad de visionar documentales que las y los ponentes del Encuentro refieren en sus participaciones.<br>
-                    Los documentales se podrán ver en línea entre el <strong>20 de octubre y el 3 de noviembre de 2021</strong>, en FilminLatinoMx, Retina Latina, Vimeo y YouTube.
+                    Los documentales se podrán ver en línea entre el <strong class="text-decoration-underline">20 de octubre y el 3 de noviembre de 2021</strong>, en FilminLatinoMx, Retina Latina, Vimeo y YouTube.
                   </v-card-text>
                 </v-card>
               </v-flex>
             </v-layout>
           </v-container>
         </v-flex>
+
         <!-- Carrusel con información del documental -->
-        <v-flex xs12 class="text-center">
+        <v-flex xs12 class="text-center d-none">
           <v-hover v-slot="{ hover }">
             <v-carousel v-model="carousel" fluid delimiter-icon="mdi-movie" show-arrows-on-hover :cycle="!hover" hide-delimiters :show-arrows="false" interval="10000" class="py-0">
               <v-carousel-item v-for="(documental, i) in documentales" :key="i">
@@ -725,7 +726,7 @@ Cada parte principal se divide en una sección (<section>) -->
         </v-flex>
 
         <!-- Listado de documentales en formato de v-cards -->
-        <v-container xs12>
+        <v-container xs12 class="d-none">
           <v-row align="center" justify="left">
             <v-col cols="6" md="3" v-for="(documental, i) in documentales" :key="i">
               <v-hover v-slot="{ hover }">
@@ -759,7 +760,7 @@ Cada parte principal se divide en una sección (<section>) -->
                 <v-card flat class="transparent">
                   <v-card-text class="text-center white--text body-1 text-uppercase">
                     <p>
-                      Inscripciones abiertas para asistir al evento del 15 de agosto al 30 de septiembre
+                      Inscripciones abiertas para asistir al evento del 15 de agosto al 30 de septiembre de 2021
                     </p>
                   </v-card-text>
                   <v-card-text class="text-center white--text body-1 font-weight-black" style="text-decoration: underline;">
@@ -773,7 +774,7 @@ Cada parte principal se divide en una sección (<section>) -->
               <v-flex xs12>
                 <v-card flat class="transparent">
                   <v-card-actions class="justify-center">
-                    <v-btn disabled class="mt-0" dark large color="red" href="http://lais-interno.mora.edu.mx/convocatorias/index.php/818258?lang=es-MX">Inscripción al Encuentro concluidas</v-btn>
+                    <v-btn disabled class="mt-0" dark large color="red" href="http://lais-interno.mora.edu.mx/convocatorias/index.php/818258?lang=es-MX">Inscripción al Encuentro concluido</v-btn>
                   </v-card-actions>
                 </v-card>
               </v-flex>
