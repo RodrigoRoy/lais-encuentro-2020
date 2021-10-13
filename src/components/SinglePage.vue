@@ -904,45 +904,48 @@ Cada parte principal se divide en una sección (<section>) -->
     <!-- Pie de página con logos -->
     <v-footer color="black darken-2">
       <v-layout row wrap align-center>
-        <v-flex xs12 sm3>
-          <div class="grey--text text--darken-2 ml-4 text-center justify-center">
-          </div>
-        </v-flex>
         <v-flex xs12 sm2>
           <div class="grey--text text--darken-2 ml-4 text-center justify-center">
             <a href="http://lais.mora.edu.mx/encuentroREDOC/">
-              <v-img src="@/assets/logo_ReDOC.png" height="75" contain class="mx-2 my-2"></v-img>
+              <v-img src="@/assets/logo_ReDOC.png" height="75" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
         <v-flex xs12 sm2>
           <div class="grey--text text--darken-2 ml-4 text-center justify-center">
             <a href="http://lais.mora.edu.mx/" target="_blank">
-              <v-img src="@/assets/logo_LAIS.png" height="75" contain class="mx-2 my-2"></v-img>
+              <v-img src="@/assets/logo_LAIS.png" height="75" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
         <v-flex xs12 sm2>
           <div class="grey--text text--darken-2 ml-4 text-center justify-center">
             <a href="http://mora.edu.mx/" target="_blank">
-              <v-img src="@/assets/logo_Mora.png" height="75" contain class="mx-2 my-2"></v-img>
-            </a>
-          </div>
-        </v-flex>
-        <!-- <v-flex xs12 sm2>
-          <div class="grey--text text--darken-2 ml-4 text-center justify-center">
-            <a href="http://www.cisan.unam.mx/" target="_blank">
-              <v-img src="@/assets/logo_CISAN.png" height="75" contain class="mx-2 my-2"></v-img>
+              <v-img src="@/assets/logo_Mora.png" height="75" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
         <v-flex xs12 sm2>
           <div class="grey--text text--darken-2 ml-4 text-center justify-center">
-            <a href="https://www.unam.mx/" target="_blank">
-              <v-img src="@/assets/logo_UNAM.png" height="75" contain class="mx-2 my-2"></v-img>
+            <a href="https://www.gob.mx/cultura">
+              <v-img src="@/assets/logo_Cultura.png" height="75" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
-        </v-flex> -->
+        </v-flex>
+        <v-flex xs12 sm2>
+          <div class="grey--text text--darken-2 ml-4 text-center justify-center">
+            <a href="https://www.imcine.gob.mx/">
+              <v-img src="@/assets/logo_IMCINE.png" height="75" contain class="mx-1 my-2"></v-img>
+            </a>
+          </div>
+        </v-flex>
+        <v-flex xs12 sm2>
+          <div class="grey--text text--darken-2 ml-4 text-center justify-center">
+            <a href="https://www.filminlatino.mx/">
+              <v-img src="@/assets/logo_FilminLatino.png" height="75" contain class="mx-1 my-2"></v-img>
+            </a>
+          </div>
+        </v-flex>
       </v-layout>
     </v-footer>
   </v-content>
@@ -1146,7 +1149,6 @@ export default {
   methods: {
     // Permite abrir la pestaña (tab) correcta
     openDialog: function(numberOfTab){
-      // alert(dayOfWeek);
       this.indice = numberOfTab;
       this.dialog.programa = true;
     }
