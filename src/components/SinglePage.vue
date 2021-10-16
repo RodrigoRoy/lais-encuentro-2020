@@ -927,21 +927,21 @@ Cada parte principal se divide en una sección (<section>) -->
         </v-flex>
         <v-flex xs4 sm2>
           <div class="d-flex grey--text text--darken-2 ml-4 text-center justify-center">
-            <a href="https://www.gob.mx/cultura">
+            <a href="https://www.gob.mx/cultura" target="_blank">
               <v-img src="@/assets/logo_Cultura.png" height="50" max-width="100" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
         <v-flex xs4 sm2>
           <div class="d-flex grey--text text--darken-2 ml-4 text-center justify-center">
-            <a href="https://www.imcine.gob.mx/">
+            <a href="https://www.imcine.gob.mx/" target="_blank">
               <v-img src="@/assets/logo_IMCINE.png" height="50" max-width="100" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
         <v-flex xs4 sm2>
           <div class="d-flex grey--text text--darken-2 ml-4 text-center justify-center">
-            <a href="https://www.filminlatino.mx/">
+            <a href="https://www.filminlatino.mx/" target="_blank">
               <v-img src="@/assets/logo_FilminLatino.png" height="50" max-width="100" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
