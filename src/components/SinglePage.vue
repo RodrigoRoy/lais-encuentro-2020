@@ -666,7 +666,7 @@ Cada parte principal se divide en una sección (<section>) -->
                   </v-card-text>
                   <v-card-text class="body-1 text-center white--text">
                     La sala de proyecciones es un espacio que brinda la oportunidad de visionar documentales que las y los ponentes del Encuentro refieren en sus participaciones.<br>
-                    Los documentales se podrán ver en línea entre el <strong class="text-decoration-underline">20 de octubre y el 3 de noviembre de 2021</strong>, en FilminLatinoMx, Retina Latina, Vimeo y YouTube.
+                    Los documentales se podrán ver en línea entre el <strong class="text-decoration-underline">20 de octubre y el 3 de noviembre de 2021</strong>, en <strong><a href="https://www.filminlatino.mx/" target="_blank" class="red--text">FilminLatinoMx</a></strong>, Retina Latina, Vimeo y YouTube.
                   </v-card-text>
                 </v-card>
               </v-flex>
@@ -774,7 +774,7 @@ Cada parte principal se divide en una sección (<section>) -->
               <v-flex xs12>
                 <v-card flat class="transparent">
                   <v-card-actions class="justify-center">
-                    <v-btn disabled class="mt-0" dark large color="red" href="http://lais-interno.mora.edu.mx/convocatorias/index.php/818258?lang=es-MX">Inscripción al Encuentro concluido</v-btn>
+                    <v-btn disabled class="mt-0" dark large color="red" href="http://lais-interno.mora.edu.mx/convocatorias/index.php/818258?lang=es-MX">Inscripción al Encuentro concluida</v-btn>
                   </v-card-actions>
                 </v-card>
               </v-flex>
@@ -904,45 +904,45 @@ Cada parte principal se divide en una sección (<section>) -->
     <!-- Pie de página con logos -->
     <v-footer color="black darken-2">
       <v-layout row wrap align-center>
-        <v-flex xs12 sm2>
-          <div class="grey--text text--darken-2 ml-4 text-center justify-center">
+        <v-flex xs4 sm2>
+          <div class="d-flex grey--text text--darken-2 ml-4 text-center justify-center">
             <a href="http://lais.mora.edu.mx/encuentroREDOC/">
-              <v-img src="@/assets/logo_ReDOC.png" height="75" contain class="mx-1 my-2"></v-img>
+              <v-img src="@/assets/logo_ReDOC.png" height="75" max-width="100" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
-        <v-flex xs12 sm2>
-          <div class="grey--text text--darken-2 ml-4 text-center justify-center">
+        <v-flex xs4 sm2>
+          <div class="d-flex grey--text text--darken-2 ml-4 text-center justify-center">
             <a href="http://lais.mora.edu.mx/" target="_blank">
-              <v-img src="@/assets/logo_LAIS.png" height="75" contain class="mx-1 my-2"></v-img>
+              <v-img src="@/assets/logo_LAIS.png" height="75" max-width="100" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
-        <v-flex xs12 sm2>
-          <div class="grey--text text--darken-2 ml-4 text-center justify-center">
+        <v-flex xs4 sm2>
+          <div class="d-flex grey--text text--darken-2 ml-4 text-center justify-center">
             <a href="http://mora.edu.mx/" target="_blank">
-              <v-img src="@/assets/logo_Mora.png" height="75" contain class="mx-1 my-2"></v-img>
+              <v-img src="@/assets/logo_Mora.png" height="75" max-width="100" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
-        <v-flex xs12 sm2>
-          <div class="grey--text text--darken-2 ml-4 text-center justify-center">
+        <v-flex xs4 sm2>
+          <div class="d-flex grey--text text--darken-2 ml-4 text-center justify-center">
             <a href="https://www.gob.mx/cultura">
-              <v-img src="@/assets/logo_Cultura.png" height="75" contain class="mx-1 my-2"></v-img>
+              <v-img src="@/assets/logo_Cultura.png" height="50" max-width="100" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
-        <v-flex xs12 sm2>
-          <div class="grey--text text--darken-2 ml-4 text-center justify-center">
+        <v-flex xs4 sm2>
+          <div class="d-flex grey--text text--darken-2 ml-4 text-center justify-center">
             <a href="https://www.imcine.gob.mx/">
-              <v-img src="@/assets/logo_IMCINE.png" height="75" contain class="mx-1 my-2"></v-img>
+              <v-img src="@/assets/logo_IMCINE.png" height="50" max-width="100" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
-        <v-flex xs12 sm2>
-          <div class="grey--text text--darken-2 ml-4 text-center justify-center">
+        <v-flex xs4 sm2>
+          <div class="d-flex grey--text text--darken-2 ml-4 text-center justify-center">
             <a href="https://www.filminlatino.mx/">
-              <v-img src="@/assets/logo_FilminLatino.png" height="75" contain class="mx-1 my-2"></v-img>
+              <v-img src="@/assets/logo_FilminLatino.png" height="50" max-width="100" contain class="mx-1 my-2"></v-img>
             </a>
           </div>
         </v-flex>
