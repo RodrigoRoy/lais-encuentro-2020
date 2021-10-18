@@ -675,7 +675,8 @@ Cada parte principal se divide en una sección (<section>) -->
         </v-flex>
 
         <!-- Carrusel con información del documental -->
-        <v-flex xs12 class="text-center d-none">
+        <!-- <v-flex xs12 class="text-center d-none"> -->
+        <v-flex xs12 class="text-center">
           <v-hover v-slot="{ hover }">
             <v-carousel v-model="carousel" fluid delimiter-icon="mdi-movie" show-arrows-on-hover :cycle="!hover" hide-delimiters :show-arrows="false" interval="10000" class="py-0">
               <v-carousel-item v-for="(documental, i) in documentales" :key="i">
@@ -691,12 +692,23 @@ Cada parte principal se divide en una sección (<section>) -->
                               <!-- <a class="white--text text-decoration-underline" :href="documental.link"> -->
                                 {{ documental.name }}
                               <!-- </a> -->
+                              <v-tooltip v-if="documental.password" right>
+                                <template v-slot:activator="{ on, attrs }">
+                                  <v-icon small color="red" dark v-bind="attrs" v-on="on" >
+                                    mdi-asterisk
+                                  </v-icon>
+                                </template>
+                                <span>Contraseña enviada por correo</span>
+                              </v-tooltip>
                             </p>
                             <p v-if="documental.altName" class="text-h6 font-weight-light my-n2">
                               {{ documental.altName }}
                             </p>
                             <p class="my-4 text-h6">
                               {{ documental.author }},<span v-if="documental.year"> {{ documental.year }},</span> {{ documental.time }} <span v-if="documental.time">minutos</span>
+                            </p>
+                            <p v-if="documental.links">
+                              <span v-for="(parte, i) in documental.links" :key="i" class="mr-2"><a :href="parte.url" target="_blank" class="red--text">{{ parte.name }}</a></span>
                             </p>
 
                             <v-divider class="mx-4 mb-6"></v-divider>
@@ -726,7 +738,8 @@ Cada parte principal se divide en una sección (<section>) -->
         </v-flex>
 
         <!-- Listado de documentales en formato de v-cards -->
-        <v-container xs12 class="d-none">
+        <!-- <v-container xs12 class="d-none"> -->
+        <v-container xs12>
           <v-row align="center" justify="left">
             <v-col cols="6" md="3" v-for="(documental, i) in documentales" :key="i">
               <v-hover v-slot="{ hover }">
@@ -1074,6 +1087,27 @@ export default {
         category: 'Conferencia magistral'
       },
       {
+        name: 'College Behind Bars',
+        altName: '',
+        speaker: 'Lynn Novick',
+        speech: 'El oficio de la realización de documentales: encuentros entre arte e investigación',
+        author: 'Lynn Novick',
+        year: '2019',
+        time: '240',
+        link: 'https://vimeo.com/633357961',
+        links: [
+          {name: 'Parte 1', url: 'https://vimeo.com/633357961'},
+          {name: 'Parte 2', url: 'https://vimeo.com/633864829'},
+          {name: 'Parte 3', url: 'https://vimeo.com/633874169'},
+          {name: 'Parte 4', url: 'https://vimeo.com/633880518'},
+        ],
+        dialog: 0,
+        image: 'CollegeBehindBars.png',
+        color: 'orange',
+        category: 'Conferencia magistral',
+        password: true,
+      },
+      {
         name: 'En construcción',
         altName: '',
         speaker: 'Andrea Meza Navarro',
@@ -1113,7 +1147,7 @@ export default {
         dialog: 3,
         image: 'TioYim.png',
         color: 'purple',
-        category: 'Militancias'
+        category: 'Militancias y resistencias'
       },
       {
         name: 'Trans',
@@ -1127,7 +1161,36 @@ export default {
         dialog: 3,
         image: 'Trans.gif',
         color: 'purple',
-        category: 'Militancias'
+        category: 'Militancias y resistencias'
+      },
+      {
+        name: 'Galo Preto',
+        altName: '',
+        speaker: 'Sarah Shamash',
+        speech: 'Co-creando espacios de resistencia en las prácticas de investigación documental-creación',
+        author: 'Sarah Shamash',
+        year: '2020',
+        time: '15',
+        link: 'https://vimeo.com/420150407',
+        dialog: 3,
+        image: 'GaloPreto.png',
+        color: 'purple',
+        category: 'Militancias y resistencias',
+        password: true,
+      },
+      {
+        name: 'La historia en la mirada',
+        altName: '',
+        speaker: 'Alejandro Gracida',
+        speech: 'Tras la sombra de los caudillos: Archivo y registros documentales del poder',
+        author: 'José Ramón Mikelajáuregui',
+        year: '2010',
+        time: '79',
+        link: 'https://www.youtube.com/watch?v=Sb9Q1HjVUdE',
+        dialog: 4,
+        image: 'HistoriaMirada.gif',
+        color: 'lime',
+        category: 'Archivación y memoria'
       },
       {
         name: 'The memory of the struggle for Freedom in Africa',
