@@ -666,7 +666,7 @@ Cada parte principal se divide en una sección (<section>) -->
                   </v-card-text>
                   <v-card-text class="body-1 text-center white--text">
                     La sala de proyecciones es un espacio que brinda la oportunidad de visionar documentales que las y los ponentes del Encuentro refieren en sus participaciones.<br>
-                    Los documentales se podrán ver en línea entre el <strong class="text-decoration-underline">20 de octubre y el 3 de noviembre de 2021</strong>, en <strong><a href="https://www.filminlatino.mx/" target="_blank" class="red--text">FilminLatinoMx</a></strong>, Retina Latina, Vimeo y YouTube.
+                    Los documentales se podrán ver en línea entre el <strong class="text-decoration-underline">20 de octubre y el 3 de noviembre de 2021</strong>, en <strong><a href="https://www.filminlatino.mx/catalogo/tema/redoc-investigacion" target="_blank" class="red--text">FilminLatino</a></strong>, Retina Latina, Vimeo y YouTube.
                   </v-card-text>
                 </v-card>
               </v-flex>
@@ -689,16 +689,16 @@ Cada parte principal se divide en una sección (<section>) -->
                           <v-col sm="12" md="5" offset-md="1">
                             <!-- Información del documental -->
                             <p class="text-h4 font-weight-medium">
-                              <!-- <a class="white--text text-decoration-underline" :href="documental.link"> -->
+                              <a class="white--text text-decoration-underline" :href="documental.link" target="_blank">
                                 {{ documental.name }}
-                              <!-- </a> -->
+                              </a>
                               <v-tooltip v-if="documental.password" right>
                                 <template v-slot:activator="{ on, attrs }">
                                   <v-icon small color="red" dark v-bind="attrs" v-on="on" >
                                     mdi-asterisk
                                   </v-icon>
                                 </template>
-                                <span>Contraseña enviada por correo</span>
+                                <span>Requiere contraseña</span>
                               </v-tooltip>
                             </p>
                             <p v-if="documental.altName" class="text-h6 font-weight-light my-n2">
@@ -723,9 +723,9 @@ Cada parte principal se divide en una sección (<section>) -->
 
                           <!-- Imagen/animación del documental -->
                           <v-col sm="12" md="5" align="center" justify="center">
-                            <!-- <a :href="documental.link" target="_blank"> -->
+                            <a :href="documental.link" target="_blank">
                               <v-img max-height="250" contain :src="require('@/assets/' + documental.image)"></v-img>
-                            <!-- </a> -->
+                            </a>
                           </v-col>
                         </v-row>
                       </v-container>
@@ -741,7 +741,7 @@ Cada parte principal se divide en una sección (<section>) -->
         <!-- <v-container xs12 class="d-none"> -->
         <v-container xs12>
           <v-row align="center" justify="left">
-            <v-col cols="6" md="3" v-for="(documental, i) in documentales" :key="i">
+            <v-col cols="6" md="3" xl="2" v-for="(documental, i) in documentales" :key="i">
               <v-hover v-slot="{ hover }">
                 <v-card outlined shaped color="rgba(0,0,0,0.8)" @click="carousel = i" :class="{ 'on-hover': hover, 'my-selection': i == carousel, 'my-v-card': true }">
                   <v-card-text class="justify-center text-center text-h6 font-weight-bold">
@@ -1108,16 +1108,16 @@ export default {
         password: true,
       },
       {
-        name: 'En construcción',
-        altName: '',
-        speaker: 'Andrea Meza Navarro',
-        speech: 'Prácticas espaciales en los documentales Aquí se construye de Ignacio Agüero y En Construcción de José Luis Guerín',
-        author: 'José Luis Guerín',
-        year: '2000',
-        time: '127',
-        link: 'https://www.youtube.com/watch?v=puiLV6rWdlE',
-        dialog: 1,
-        image: 'EnConstruccion.png',
+        name: 'A quien corresponda',
+        altName: 'Tras los muros de la prisión',
+        speaker: 'Luis Alejandro García Cervantes',
+        speech: 'Dialógicas de investigación creación y arte participativo en un espacio totalitario',
+        author: 'Luis Alejandro García Cervantes',
+        year: '2017',
+        time: '13',
+        link: 'https://vimeo.com/202451317',
+        dialog: 0,
+        image: 'QuienCorresponda.gif',
         color: 'teal',
         category: 'Investigación colaborativa'
       },
@@ -1136,9 +1136,163 @@ export default {
         category: 'Investigación colaborativa'
       },
       {
+        name: 'Tierra y libertad',
+        altName: '',
+        speaker: 'Jaime Sánchez Macedo',
+        speech: 'Documental y estudios urbanos: la National Film de Canadá en la ciudad de Monterrey',
+        author: 'Maurice Bulbulian',
+        year: '1978',
+        time: '94',
+        link: 'https://www.filminlatino.mx/pelicula/tierra-y-libertad',
+        dialog: 1,
+        image: 'TierraLibertad.png',
+        color: 'teal',
+        category: 'Investigación colaborativa'
+      },
+      {
+        name: 'En construcción',
+        altName: '',
+        speaker: 'Andrea Meza Navarro',
+        speech: 'Prácticas espaciales en los documentales Aquí se construye de Ignacio Agüero y En Construcción de José Luis Guerín',
+        author: 'José Luis Guerín',
+        year: '2000',
+        time: '127',
+        link: 'https://www.youtube.com/watch?v=puiLV6rWdlE',
+        dialog: 1,
+        image: 'EnConstruccion.png',
+        color: 'teal',
+        category: 'Investigación colaborativa'
+      },
+      {
+        name: 'Madres',
+        altName: '',
+        speaker: 'Josefina Cordera',
+        speech: 'Cruces disciplinares y representación de la realidad. Construcción de un documental desde la Antropología Visual',
+        author: 'Josefina Cordera',
+        year: '2018',
+        time: '62',
+        link: 'https://www.filminlatino.mx/pelicula/madres',
+        dialog: 1,
+        image: 'Madres.png',
+        color: 'indigo',
+        category: 'Metodologías y formación audiovisual'
+      },
+      {
+        name: 'Río desborde',
+        altName: '',
+        speaker: 'Vivian Castro',
+        speech: 'Río desborde: documental de las inundaciones en las ciudades de São Paulo, Brasil y Santiago de Chile',
+        author: 'Vivian Castro',
+        year: '2020',
+        time: '15',
+        link: 'https://www.filminlatino.mx/pelicula/madres',
+        dialog: 1,
+        image: 'RioDesborde.png',
+        color: 'indigo',
+        category: 'Metodologías y formación audiovisual'
+      },
+      {
+        name: 'El triángulo de Tacubaya',
+        altName: 'Historia del cine Hipódromo Condesa',
+        speaker: 'Felipe Morales Leal',
+        speech: 'El historiantrocomunicólogo, la ruptura disciplinar en la realización documental',
+        author: 'Felipe Morales Leal',
+        year: '2005',
+        time: '49',
+        link: 'https://www.filminlatino.mx/pelicula/el-triangulo-de-tacubaya-historia-del-cine-hipodromo-condesa',
+        dialog: 2,
+        image: 'TrianguloTacubaya.png',
+        color: 'indigo',
+        category: 'Metodologías y formación audiovisual'
+      },
+      {
+        name: 'Memoria oculta',
+        altName: '',
+        speaker: 'Itzel Martínez del Cañizo',
+        speech: 'Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)',
+        author: 'Eva Villaseñor',
+        year: '2014',
+        time: '60',
+        link: 'https://www.filminlatino.mx/pelicula/memoria-oculta',
+        dialog: 3,
+        image: 'MemoriaOculta.png',
+        color: 'purple',
+        category: 'Militancias y resistencias'
+      },
+      {
+        name: 'M',
+        altName: '',
+        speaker: 'Itzel Martínez del Cañizo',
+        speech: 'Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)',
+        author: 'Eva Villaseñor',
+        year: '2018',
+        time: '52',
+        link: 'https://www.filminlatino.mx/corto/m-documental',
+        dialog: 3,
+        image: 'M.png',
+        color: 'purple',
+        category: 'Militancias y resistencias'
+      },
+      {
+        name: 'Vuela, angelito',
+        altName: '',
+        speaker: 'Itzel Martínez del Cañizo',
+        speech: 'Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)',
+        author: 'Christiane Burkhard',
+        year: '2001',
+        time: '50',
+        link: 'https://www.filminlatino.mx/pelicula/vuela-angelito',
+        dialog: 3,
+        image: 'VuelaAngelito.png',
+        color: 'purple',
+        category: 'Militancias y resistencias'
+      },
+      {
+        name: 'Palabras mágicas (para romper un encantamiento)',
+        altName: '',
+        speaker: 'Itzel Martínez del Cañizo',
+        speech: 'Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)',
+        author: 'Mercedes Moncada Rodríguez',
+        year: '2012',
+        time: '83',
+        link: 'https://www.filminlatino.mx/pelicula/palabras-magicas-para-romper-un-encantamiento',
+        dialog: 3,
+        image: 'PalabrasMagicas.png',
+        color: 'purple',
+        category: 'Militancias y resistencias'
+      },
+      {
+        name: 'La danza del hipocampo',
+        altName: '',
+        speaker: 'Itzel Martínez del Cañizo',
+        speech: 'Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)',
+        author: 'Gabriela Domínguez Ruvalcaba',
+        year: '2014',
+        time: '86',
+        link: 'https://www.filminlatino.mx/pelicula/la-danza-del-hipocampo',
+        dialog: 3,
+        image: 'DanzaHipocampo.png',
+        color: 'purple',
+        category: 'Militancias y resistencias'
+      },
+      {
+        name: 'Perdida',
+        altName: '',
+        speaker: 'Itzel Martínez del Cañizo',
+        speech: 'Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)',
+        author: 'Viviana García Besné',
+        year: '2011',
+        time: '96',
+        link: 'https://www.filminlatino.mx/pelicula/perdida',
+        dialog: 3,
+        image: 'Perdida.png',
+        color: 'purple',
+        category: 'Militancias y resistencias'
+      },
+      {
         name: 'Tío Yim',
         altName: 'Uncle Yim',
-        speaker: 'Itzel Martínez',
+        speaker: 'Itzel Martínez del Cañizo',
         speech: 'Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)',
         author: 'Luna Marán',
         year: '2019',
@@ -1146,6 +1300,62 @@ export default {
         link: 'https://www.retinalatina.org/video/tio-yim/',
         dialog: 3,
         image: 'TioYim.png',
+        color: 'purple',
+        category: 'Militancias y resistencias'
+      },
+      {
+        name: 'El remolino',
+        altName: '',
+        speaker: 'Omara Corona Ramírez',
+        speech: 'Figuraciones de lo trans en el audiovisual documental mexicano',
+        author: 'Laura Herrero Garvín',
+        year: '2016',
+        time: '73',
+        link: 'https://www.filminlatino.mx/pelicula/el-remolino',
+        dialog: 3,
+        image: 'ElRemolino.png',
+        color: 'purple',
+        category: 'Militancias y resistencias'
+      },
+      {
+        name: 'Club Amazonas',
+        altName: '',
+        speaker: 'Omara Corona Ramírez',
+        speech: 'Figuraciones de lo trans en el audiovisual documental mexicano',
+        author: 'Roberto Fiesco',
+        year: '2016',
+        time: '20',
+        link: 'https://www.filminlatino.mx/corto/club-amazonas',
+        dialog: 3,
+        image: 'ClubAmazonas.png',
+        color: 'purple',
+        category: 'Militancias y resistencias'
+      },
+      {
+        name: 'Quebranto',
+        altName: '',
+        speaker: 'Omara Corona Ramírez',
+        speech: 'Figuraciones de lo trans en el audiovisual documental mexicano',
+        author: 'Roberto Fiesco',
+        year: '2013',
+        time: '94',
+        link: 'https://www.filminlatino.mx/pelicula/quebranto',
+        dialog: 3,
+        image: 'Quebranto.png',
+        color: 'purple',
+        category: 'Militancias y resistencias'
+      },
+      {
+        name: 'Morir de pie',
+        altName: '',
+        speaker: 'Omara Corona Ramírez',
+        speech: 'Figuraciones de lo trans en el audiovisual documental mexicano',
+        author: 'Jacaranda Correa',
+        year: '2010',
+        time: '74',
+        link: 'https://www.filminlatino.mx/pelicula/morir-de-pie',
+        dialog: 3,
+        image: 'MorirPie.png',
         color: 'purple',
         category: 'Militancias y resistencias'
       },
