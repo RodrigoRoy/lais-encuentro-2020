@@ -698,7 +698,7 @@ Cada parte principal se divide en una sección (<section>) -->
                                     mdi-asterisk
                                   </v-icon>
                                 </template>
-                                <span>Requiere contraseña</span>
+                                <span>Exclusivo para participantes del Encuentro</span>
                               </v-tooltip>
                             </p>
                             <p v-if="documental.altName" class="text-h6 font-weight-light my-n2">
@@ -1101,8 +1101,38 @@ export default {
           {name: 'Parte 3', url: 'https://vimeo.com/633874169'},
           {name: 'Parte 4', url: 'https://vimeo.com/633880518'},
         ],
-        dialog: 0,
+        dialog: 2,
         image: 'CollegeBehindBars.png',
+        color: 'orange',
+        category: 'Conferencia magistral',
+        password: true,
+      },
+      {
+        name: 'Tierra sola',
+        altName: '',
+        speaker: 'Tiziana Panizza',
+        speech: 'Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental',
+        author: 'Tiziana Panizza',
+        year: '2017',
+        time: '107',
+        link: 'https://vimeo.com/238861634',
+        dialog: 4,
+        image: 'TierraSola.png',
+        color: 'orange',
+        category: 'Conferencia magistral',
+        password: true,
+      },
+      {
+        name: 'Tierra en movimiento',
+        altName: '',
+        speaker: 'Tiziana Panizza',
+        speech: 'Coleccionar lo que el mar devuelve: digresión y deriva en la investigación documental',
+        author: 'Tiziana Panizza',
+        year: '2014',
+        time: '36',
+        link: 'https://vimeo.com/110629781',
+        dialog: 4,
+        image: 'TierraMovimiento.png',
         color: 'orange',
         category: 'Conferencia magistral',
         password: true,
