@@ -3,7 +3,7 @@ Cada parte principal se divide en una sección (<section>) -->
 <template>
   <v-content>
     <!-- Imagen de encabezado -->
-    <section class="black white--text" id="inicio" @click="$vuetify.goTo('#inscripcion', options)" style="cursor: pointer;">
+    <section class="black white--text" id="inicio" @click="$vuetify.goTo('#programa', options)" style="cursor: pointer;">
       <v-layout column wrap class="my-0 pt-0" align-center >
         <v-flex xs12 class="mt-4 mb-0">
           <div class="text-center">
@@ -516,10 +516,6 @@ Cada parte principal se divide en una sección (<section>) -->
                         Anfitrión ReDOC: Alejandro Gracida
                       </p>
 
-                      <!-- <p class="text-body-1">
-                        <strong>Darwin Mendoza</strong> 🇭🇳 <br>
-                        <em>Cine ojo</em> en Latinoamérica: hacia un “siempre” nuevo cine latinoamericano
-                      </p> -->
                       <p class="text-body-1">
                         <strong>Itzel Martínez del Cañizo</strong> 🇲🇽 <br>
                         Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)
@@ -529,7 +525,7 @@ Cada parte principal se divide en una sección (<section>) -->
                         Una tempestad. Nuevos sentidos desde las prácticas de las mujeres documentalistas en el contexto de nuevas formas de guerra en México
                       </p>
                       <p class="text-body-1">
-                        <strong>Luz Estrello, Julio César Gonzales y Gabriela del Pilar Koc</strong> 🇵🇪 <br>
+                        <strong>Luz Estrello</strong> 🇵🇪 <br>
                         Miradas en Lucha: la producción documental sobre conflictos y movimientos socioambientales en Perú
                       </p>
                       <p class="text-body-1">
@@ -554,10 +550,6 @@ Cada parte principal se divide en una sección (<section>) -->
                         Anfitriona ReDOC: Adriana Estrada
                       </p>
 
-                      <!-- <p class="text-body-1">
-                        <strong>Mitzi Amairani Castellanos Méndez</strong> 🇲🇽 <br>
-                        Narrativas emergentes como respuesta al dolor, la alegría y la rebeldía: el documental en Oaxaca
-                      </p> -->
                       <p class="text-body-1">
                         <strong>Óscar Badillo</strong> 🇲🇽 <br>
                         Docu-gore: la representación de la violencia y el narcotráfico en tres documentales sobre la frontera México-Estados Unidos
