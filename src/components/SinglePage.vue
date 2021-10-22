@@ -457,6 +457,9 @@ Cada parte principal se divide en una sección (<section>) -->
                         <v-icon small color="orange" class="mr-1">mdi-circle</v-icon>El oficio de la realización de documentales: encuentros entre arte e investigación
                       </h3>
                       <p class="text-body-1 font-weight-medium red--text">
+                        Sesión con traducción simultánea
+                      </p>
+                      <p class="text-body-1 font-weight-medium red--text">
                         Anfitrión ReDOC: Felipe Morales Leal
                       </p>
                       <p class="mt-n2 mb-10 text-h6 red--text">
