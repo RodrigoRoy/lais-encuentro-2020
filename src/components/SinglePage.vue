@@ -394,10 +394,6 @@ Cada parte principal se divide en una sección (<section>) -->
                         Cine y rarámuris: del registro etnográfico al cine experimental (1926-1998)
                       </p>
                       <p class="text-body-1">
-                        <strong>Javiera Alejandra Carvallo Fernández</strong> 🇨🇱 <br>
-                        Historia y cine documental; un acercamiento al pasado reciente desde las imágenes de <em>La batalla de Chile; la lucha de un pueblo sin armas</em>
-                      </p>
-                      <p class="text-body-1">
                         <strong>Jaime Sánchez Macedo</strong> 🇲🇽 <br>
                         Documental y estudios urbanos: la National Film de Canadá en la ciudad de Monterrey
                       </p>
@@ -661,7 +657,7 @@ Cada parte principal se divide en una sección (<section>) -->
                   </v-card-text>
                   <v-card-text class="body-1 text-center white--text">
                     La sala de proyecciones es un espacio que brinda la oportunidad de visionar documentales que las y los ponentes del Encuentro refieren en sus participaciones.<br>
-                    Los documentales se podrán ver en línea entre el <strong class="text-decoration-underline">20 de octubre y el 3 de noviembre de 2021</strong>, en <strong><a href="https://www.filminlatino.mx/catalogo/tema/redoc-investigacion" target="_blank" class="red--text">FilminLatino</a></strong>, Retina Latina, Vimeo y YouTube.
+                    Los documentales se podrán ver en línea entre el <strong class="text-decoration-underline">20 de octubre y el 3 de noviembre de 2021</strong>, en <strong><a href="https://www.filminlatino.mx/catalogo/tema/redoc-investigacion" target="_blank" class="red--text">FilminLatino</a></strong>, Vimeo y YouTube.
                   </v-card-text>
                 </v-card>
               </v-flex>
@@ -1314,20 +1310,20 @@ export default {
         color: 'purple',
         category: 'Militancias y resistencias'
       },
-      {
-        name: 'Tío Yim',
-        altName: 'Uncle Yim',
-        speaker: 'Itzel Martínez del Cañizo',
-        speech: 'Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)',
-        author: 'Luna Marán',
-        year: '2019',
-        time: '83',
-        link: 'https://www.retinalatina.org/video/tio-yim/',
-        dialog: 3,
-        image: 'TioYim.png',
-        color: 'purple',
-        category: 'Militancias y resistencias'
-      },
+      // {
+      //   name: 'Tío Yim',
+      //   altName: 'Uncle Yim',
+      //   speaker: 'Itzel Martínez del Cañizo',
+      //   speech: 'Un cine propio: autoetnografías fílmicas de mujeres documentalistas en México (1994-2020)',
+      //   author: 'Luna Marán',
+      //   year: '2019',
+      //   time: '83',
+      //   link: 'https://www.retinalatina.org/video/tio-yim/',
+      //   dialog: 3,
+      //   image: 'TioYim.png',
+      //   color: 'purple',
+      //   category: 'Militancias y resistencias'
+      // },
       {
         name: 'El remolino',
         altName: '',
