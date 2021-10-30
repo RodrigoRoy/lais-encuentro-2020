@@ -1022,6 +1022,20 @@ export default {
     carousel: 0, // indice del elemento en carrusel que se muestra
     documentales: [ // documentales para sala de proyecciones
       {
+        name: 'Mona',
+        altName: '',
+        speaker: 'Sonia Fritz',
+        speech: 'Migración, género y ambiente en documentales latino-caribeños',
+        author: 'Sonia Fritz',
+        year: '2021',
+        time: '79',
+        link: 'https://www.youtube.com/watch?v=V2IFiA3Hbos',
+        dialog: 0,
+        image: 'Mona.png',
+        color: 'orange',
+        category: 'Conferencia magistral'
+      },
+      {
         name: 'Pequeños inmigrantes',
         altName: 'Little Immigrants',
         speaker: 'Sonia Fritz',
