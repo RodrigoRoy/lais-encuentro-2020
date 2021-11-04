@@ -680,9 +680,9 @@ Cada parte principal se divide en una sección (<section>) -->
                           <v-col sm="12" md="5" offset-md="1">
                             <!-- Información del documental -->
                             <p class="text-h4 font-weight-medium">
-                              <a class="white--text text-decoration-underline" :href="documental.link" target="_blank">
+                              <!-- <a class="white--text text-decoration-underline" :href="documental.link" target="_blank"> -->
                                 {{ documental.name }}
-                              </a>
+                              <!-- </a> -->
                               <v-tooltip v-if="documental.password" right>
                                 <template v-slot:activator="{ on, attrs }">
                                   <v-icon small color="red" dark v-bind="attrs" v-on="on" >
@@ -698,9 +698,9 @@ Cada parte principal se divide en una sección (<section>) -->
                             <p class="my-4 text-h6">
                               {{ documental.author }},<span v-if="documental.year"> {{ documental.year }},</span> {{ documental.time }} <span v-if="documental.time">minutos</span>
                             </p>
-                            <p v-if="documental.links">
+                            <!-- <p v-if="documental.links">
                               <span v-for="(parte, i) in documental.links" :key="i" class="mr-2"><a :href="parte.url" target="_blank" class="red--text">{{ parte.name }}</a></span>
-                            </p>
+                            </p> -->
 
                             <v-divider class="mx-4 mb-6"></v-divider>
 
@@ -714,9 +714,9 @@ Cada parte principal se divide en una sección (<section>) -->
 
                           <!-- Imagen/animación del documental -->
                           <v-col sm="12" md="5" align="center" justify="center">
-                            <a :href="documental.link" target="_blank">
+                            <!-- <a :href="documental.link" target="_blank"> -->
                               <v-img max-height="250" contain :src="require('@/assets/' + documental.image)"></v-img>
-                            </a>
+                            <!-- </a> -->
                           </v-col>
                         </v-row>
                       </v-container>
